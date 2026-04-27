@@ -1,0 +1,10 @@
+[
+  {"id": "V0001", "name": "Farzi Cafe", "cuisine": "North Indian", "ambiance": "fine_dining", "price_range": 4, "rating": 4.3, "area": "UB City"},
+  {"id": "V0002", "name": "Byg Brewski", "cuisine": "Continental", "ambiance": "pub", "price_range": 3, "rating": 4.1, "area": "Sarjapur Road"},
+  {"id": "V0003", "name": "Toit", "cuisine": "Continental", "ambiance": "pub", "price_range": 3, "rating": 4.4, "area": "Indiranagar"},
+  {"id": "V0004", "name": "The Permit Room", "cuisine": "South Indian", "ambiance": "casual", "price_range": 3, "rating": 4.2, "area": "Indiranagar"},
+  {"id": "V0005", "name": "Karavalli", "cuisine": "Kerala", "ambiance": "fine_dining", "price_range": 4, "rating": 4.6, "area": "Residency Road"},
+  {"id": "V0006", "name": "Olive Beach", "cuisine": "Italian", "ambiance": "fine_dining", "price_range": 4, "rating": 4.3, "area": "Ashok Nagar"},
+  {"id": "V0007", "name": "Bob's Bar", "cuisine": "North Indian", "ambiance": "pub", "price_range": 2, "rating": 3.9, "area": "Koramangala"},
+  {"id": "V0008", "name": "Smoke House Deli", "cuisine": "Continental", "ambiance": "cafe", "price_range": 3, "rating": 4.2, "area": "Indiranagar"}
+]

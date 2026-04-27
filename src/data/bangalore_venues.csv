@@ -1,0 +1,101 @@
+venue_id,name,cuisine,ambiance,price_range,capacity,avg_rating,area,lat,lng
+V0000,Farzi Cafe,Italian,casual,3,154,3.6,Richmond Town,12.919474,77.548049
+V0001,Byg Brewski,Kerala,fine_dining,2,192,4.5,Yelahanka,13.041312,77.675852
+V0002,The Black Pearl,Rajasthani,rooftop,2,76,4.1,Yelahanka,12.794404,77.55085
+V0003,Windmills Craftworks,Cafe,rooftop,4,32,4.2,Electronic City,12.775524,77.600547
+V0004,Bob's Bar,Pizza,fine_dining,3,163,3.8,Yelahanka,12.945675,77.50883
+V0005,Hard Rock Cafe,Chettinad,rooftop,2,82,3.6,Kanakapura Road,12.87902,77.655421
+V0006,Hammered,Rajasthani,casual,2,191,4.0,Rajajinagar,12.854492,77.546222
+V0007,Plan B,Chettinad,casual,3,63,4.8,Brigade Road,12.996475,77.690839
+V0008,Communiti,Chettinad,fine_dining,3,31,4.7,Marathahalli,12.809906,77.562146
+V0009,1Q1 Kitchen,Chinese,casual,4,33,3.8,Brigade Road,13.028019,77.710626
+V0010,Toast & Tonic,Continental,casual,3,197,4.5,Banashankari,12.885018,77.456824
+V0011,The Permit Room,Andhra,rooftop,2,72,4.2,Kanakapura Road,12.827597,77.594908
+V0012,Chinita,Pizza,casual,3,169,4.7,Domlur,12.763045,77.501096
+V0013,Fatty Bao,Continental,fine_dining,4,178,3.9,Bellandur,12.946427,77.4525
+V0014,Smoke House Deli,Italian,cafe,4,188,4.0,Whitefield,12.755723,77.710223
+V0015,Olive Beach,Italian,fine_dining,3,150,4.8,Whitefield,13.021162,77.595399
+V0016,Caperberry,Chettinad,rooftop,2,67,3.8,Bellandur,12.918206,77.663741
+V0017,Ebony,North Indian,fine_dining,4,98,3.9,Yelahanka,12.973317,77.455512
+V0018,Rim Naam,Japanese,cafe,4,97,3.8,Domlur,12.832763,77.468603
+V0019,Karavalli,Mughlai,pub,2,162,4.7,Marathahalli,12.795512,77.719153
+V0020,Farzi Cafe Basavanagudi,Pizza,casual,4,117,4.2,Vijayanagar,12.933735,77.637657
+V0021,Byg Brewski Vijayanagar,Kerala,pub,2,166,3.7,Banashankari,13.022921,77.548785
+V0022,The Black Pearl Nagarbhavi,Bengali,fine_dining,2,187,3.7,Richmond Town,12.955215,77.510693
+V0023,Windmills Craftworks Bannerghatta Road,Pizza,cafe,4,200,4.7,Jayanagar,12.879019,77.722701
+V0024,Bob's Bar Kanakapura Road,Pizza,rooftop,2,101,3.6,Richmond Town,13.03458,77.485516
+V0025,Hard Rock Cafe Koramangala,Thai,fine_dining,4,27,4.5,Hebbal,13.038359,77.541004
+V0026,Hammered Indiranagar,Mughlai,fine_dining,2,47,3.7,Koramangala,12.978734,77.633594
+V0027,Plan B HSR Layout,Mughlai,rooftop,4,176,3.8,Marathahalli,12.819274,77.457825
+V0028,Communiti Whitefield,Chinese,pub,2,148,4.6,Sarjapur Road,12.963606,77.562188
+V0029,1Q1 Kitchen Jayanagar,Italian,pub,3,55,3.7,Marathahalli,12.759669,77.679362
+V0030,Toast & Tonic JP Nagar,South Indian,cafe,3,76,4.5,BTM Layout,12.977333,77.469841
+V0031,The Permit Room BTM Layout,Desserts,rooftop,3,196,3.9,Bellandur,13.016276,77.578267
+V0032,Chinita Marathahalli,North Indian,rooftop,4,117,4.4,Yelahanka,12.933451,77.67274
+V0033,Fatty Bao Electronic City,Chettinad,rooftop,4,184,4.6,Indiranagar,12.906195,77.585483
+V0034,Smoke House Deli Banashankari,North Indian,fine_dining,4,157,4.0,Bannerghatta Road,12.761775,77.566219
+V0035,Olive Beach Malleshwaram,North Indian,fine_dining,3,132,4.0,Banashankari,12.982103,77.535774
+V0036,Caperberry Rajajinagar,Burger,pub,3,176,4.7,Nagarbhavi,12.905091,77.492672
+V0037,Ebony Yelahanka,Desserts,casual,4,148,3.6,Kanakapura Road,12.925634,77.718298
+V0038,Rim Naam Hebbal,Bengali,fine_dining,3,125,3.9,Koramangala,12.803664,77.627095
+V0039,Karavalli Bellandur,Andhra,pub,2,84,3.9,Basavanagudi,13.022149,77.688946
+V0040,Farzi Cafe Sarjapur Road,Biryani,casual,2,200,4.1,Rajajinagar,12.775592,77.662184
+V0041,Byg Brewski Domlur,Healthy,rooftop,2,116,4.2,Indiranagar,12.980478,77.723676
+V0042,The Black Pearl Richmond Town,Rajasthani,fine_dining,2,57,3.7,Nagarbhavi,12.765393,77.542419
+V0043,Windmills Craftworks MG Road,Desserts,cafe,4,66,3.7,Jayanagar,13.03813,77.45106
+V0044,Bob's Bar Brigade Road,Mughlai,casual,3,147,4.6,Richmond Town,12.992236,77.632395
+V0045,Hard Rock Cafe Basavanagudi,Cafe,fine_dining,2,170,4.4,Bellandur,12.873045,77.473821
+V0046,Hammered Vijayanagar,Chettinad,casual,2,160,3.9,Basavanagudi,12.917265,77.697576
+V0047,Plan B Nagarbhavi,North Indian,fine_dining,2,34,4.3,Indiranagar,12.793612,77.45973
+V0048,Communiti Bannerghatta Road,Rajasthani,rooftop,3,104,4.7,Indiranagar,12.782666,77.748121
+V0049,1Q1 Kitchen Kanakapura Road,Burger,cafe,4,189,4.4,Brigade Road,12.921685,77.618653
+V0050,Toast & Tonic Koramangala,Desserts,rooftop,3,29,3.6,Banashankari,12.846847,77.719259
+V0051,The Permit Room Indiranagar,Chinese,pub,4,36,3.9,Jayanagar,12.786607,77.707822
+V0052,Chinita HSR Layout,Thai,rooftop,3,154,3.8,BTM Layout,12.933616,77.482791
+V0053,Fatty Bao Whitefield,Healthy,casual,3,196,4.3,Nagarbhavi,12.836156,77.632653
+V0054,Smoke House Deli Jayanagar,Thai,cafe,4,167,4.8,Rajajinagar,13.028132,77.634287
+V0055,Olive Beach JP Nagar,Cafe,rooftop,4,181,4.1,JP Nagar,13.015099,77.519816
+V0056,Caperberry BTM Layout,Continental,fine_dining,2,50,3.5,Basavanagudi,12.98902,77.671241
+V0057,Ebony Marathahalli,Andhra,rooftop,3,125,3.6,Rajajinagar,12.918125,77.641251
+V0058,Rim Naam Electronic City,South Indian,fine_dining,4,92,3.8,HSR Layout,12.842332,77.602007
+V0059,Karavalli Banashankari,Thai,casual,2,195,3.9,Yelahanka,12.967319,77.634798
+V0060,Farzi Cafe Malleshwaram,South Indian,fine_dining,2,104,4.6,Vijayanagar,12.893732,77.59235
+V0061,Byg Brewski Rajajinagar,North Indian,fine_dining,3,59,4.3,Richmond Town,13.018779,77.588741
+V0062,The Black Pearl Yelahanka,Street Food,casual,4,96,4.2,Vijayanagar,12.844651,77.610766
+V0063,Windmills Craftworks Hebbal,Andhra,rooftop,4,104,4.5,Rajajinagar,12.769864,77.494791
+V0064,Bob's Bar Bellandur,South Indian,cafe,3,180,4.2,JP Nagar,12.921294,77.56687
+V0065,Hard Rock Cafe Sarjapur Road,Chettinad,casual,3,200,4.6,Nagarbhavi,12.759488,77.574161
+V0066,Hammered Domlur,Cafe,fine_dining,3,135,4.6,Banashankari,12.814842,77.540695
+V0067,Plan B Richmond Town,Biryani,cafe,2,71,4.7,Bellandur,12.901798,77.689708
+V0068,Communiti MG Road,Healthy,fine_dining,2,107,4.7,Bannerghatta Road,13.012164,77.543108
+V0069,1Q1 Kitchen Brigade Road,Thai,fine_dining,2,152,4.4,Jayanagar,12.811556,77.460966
+V0070,Toast & Tonic Basavanagudi,Italian,rooftop,2,21,3.9,Indiranagar,12.956116,77.628286
+V0071,The Permit Room Vijayanagar,Chinese,cafe,3,31,3.6,Kanakapura Road,12.947695,77.543744
+V0072,Chinita Nagarbhavi,Rajasthani,cafe,4,73,3.9,BTM Layout,12.83597,77.609683
+V0073,Fatty Bao Bannerghatta Road,Desserts,casual,3,58,3.7,Whitefield,12.754577,77.636883
+V0074,Smoke House Deli Kanakapura Road,Healthy,casual,2,158,4.0,Malleshwaram,12.831316,77.732983
+V0075,Olive Beach Koramangala,Continental,rooftop,2,63,3.6,Brigade Road,13.017673,77.612173
+V0076,Caperberry Indiranagar,North Indian,fine_dining,2,140,4.7,Indiranagar,12.781778,77.46614
+V0077,Ebony HSR Layout,Street Food,pub,2,200,4.3,MG Road,12.938841,77.657037
+V0078,Rim Naam Whitefield,Desserts,rooftop,3,99,3.9,BTM Layout,12.96387,77.651261
+V0079,Karavalli Jayanagar,Bengali,casual,3,165,3.7,Nagarbhavi,12.890483,77.586675
+V0080,Farzi Cafe JP Nagar,Desserts,pub,2,77,3.7,Brigade Road,12.827416,77.559035
+V0081,Byg Brewski BTM Layout,Burger,cafe,3,136,4.1,HSR Layout,12.8926,77.555432
+V0082,The Black Pearl Marathahalli,Desserts,fine_dining,3,109,4.3,Jayanagar,12.902385,77.571706
+V0083,Windmills Craftworks Electronic City,Biryani,cafe,4,186,3.6,Banashankari,12.909824,77.570245
+V0084,Bob's Bar Banashankari,Street Food,fine_dining,4,82,4.2,Sarjapur Road,12.865145,77.552214
+V0085,Hard Rock Cafe Malleshwaram,Rajasthani,pub,3,165,4.5,Richmond Town,12.95824,77.501926
+V0086,Hammered Rajajinagar,Chinese,rooftop,3,49,4.3,Bellandur,12.847613,77.479296
+V0087,Plan B Yelahanka,Desserts,fine_dining,3,123,3.6,Whitefield,12.955653,77.628922
+V0088,Communiti Hebbal,Italian,cafe,3,185,4.4,HSR Layout,12.815284,77.491675
+V0089,1Q1 Kitchen Bellandur,Rajasthani,casual,2,189,3.7,Richmond Town,12.837451,77.634672
+V0090,Toast & Tonic Sarjapur Road,Desserts,fine_dining,2,194,4.6,Banashankari,12.921083,77.723961
+V0091,The Permit Room Domlur,Continental,pub,4,108,4.8,MG Road,12.752436,77.745926
+V0092,Chinita Richmond Town,Italian,fine_dining,3,35,4.0,Richmond Town,13.04037,77.450253
+V0093,Fatty Bao MG Road,Bengali,cafe,2,92,4.6,Marathahalli,12.879515,77.627049
+V0094,Smoke House Deli Brigade Road,Thai,pub,3,117,4.1,BTM Layout,12.948746,77.592461
+V0095,Olive Beach Basavanagudi,Andhra,rooftop,3,112,4.6,Jayanagar,12.836541,77.711821
+V0096,Caperberry Vijayanagar,Pizza,fine_dining,2,38,4.3,Jayanagar,12.966402,77.59601
+V0097,Ebony Nagarbhavi,Street Food,fine_dining,2,55,4.3,Hebbal,13.008046,77.718075
+V0098,Rim Naam Bannerghatta Road,Chettinad,pub,4,66,4.1,Hebbal,12.915615,77.585014
+V0099,Karavalli Kanakapura Road,Japanese,fine_dining,2,128,4.3,MG Road,12.899447,77.669274

@@ -1,0 +1,501 @@
+user_id,location,cuisine_pref,price_sensitivity,signup_days_ago
+U0000,Basavanagudi,Biryani,0.22,170
+U0001,Marathahalli,Kerala,0.31,82
+U0002,Vijayanagar,Bengali,0.27,246
+U0003,Indiranagar,South Indian,0.27,149
+U0004,Domlur,Chettinad,0.22,131
+U0005,Nagarbhavi,Bengali,0.54,259
+U0006,MG Road,Mughlai,0.85,33
+U0007,Kanakapura Road,Burger,0.76,204
+U0008,Electronic City,Pizza,0.37,202
+U0009,Whitefield,Chinese,0.5,213
+U0010,Rajajinagar,Chettinad,0.41,52
+U0011,Bannerghatta Road,Desserts,0.63,223
+U0012,HSR Layout,Bengali,0.43,351
+U0013,Brigade Road,Japanese,0.66,65
+U0014,Indiranagar,Kerala,0.82,70
+U0015,Marathahalli,Biryani,0.5,262
+U0016,Basavanagudi,Japanese,0.33,211
+U0017,BTM Layout,Mughlai,0.76,361
+U0018,HSR Layout,Chettinad,0.71,303
+U0019,Bannerghatta Road,Kerala,0.33,224
+U0020,Electronic City,Bengali,0.38,196
+U0021,Kanakapura Road,North Indian,0.38,46
+U0022,Malleshwaram,Italian,0.41,138
+U0023,MG Road,Thai,0.37,285
+U0024,Yelahanka,Desserts,0.31,101
+U0025,Marathahalli,Bengali,0.63,329
+U0026,Hebbal,Rajasthani,0.52,142
+U0027,Jayanagar,Healthy,0.59,54
+U0028,Whitefield,Pizza,0.7,246
+U0029,Brigade Road,Chinese,0.51,335
+U0030,Bellandur,Healthy,0.4,313
+U0031,Koramangala,Biryani,0.75,304
+U0032,Kanakapura Road,Mughlai,0.81,204
+U0033,Whitefield,Continental,0.55,262
+U0034,Koramangala,Mughlai,0.98,121
+U0035,Domlur,Biryani,0.9,182
+U0036,Basavanagudi,Healthy,0.69,108
+U0037,Rajajinagar,Burger,0.63,301
+U0038,Koramangala,Chettinad,0.46,39
+U0039,Whitefield,Japanese,0.9,187
+U0040,Marathahalli,North Indian,0.39,320
+U0041,HSR Layout,Chinese,0.79,65
+U0042,Kanakapura Road,Bengali,0.81,95
+U0043,Vijayanagar,Cafe,0.96,114
+U0044,Electronic City,Healthy,0.9,246
+U0045,BTM Layout,Bengali,0.8,132
+U0046,Nagarbhavi,Continental,0.52,362
+U0047,Rajajinagar,Desserts,0.92,261
+U0048,Whitefield,Kerala,0.38,203
+U0049,Koramangala,Rajasthani,0.64,331
+U0050,Marathahalli,South Indian,0.26,353
+U0051,Indiranagar,Kerala,0.25,46
+U0052,Malleshwaram,Chinese,0.61,172
+U0053,Vijayanagar,Cafe,0.37,97
+U0054,Bannerghatta Road,Rajasthani,0.66,154
+U0055,Sarjapur Road,Street Food,0.35,79
+U0056,Vijayanagar,Street Food,0.48,240
+U0057,Bellandur,North Indian,0.74,360
+U0058,Whitefield,North Indian,0.52,203
+U0059,Whitefield,Kerala,0.35,304
+U0060,Bellandur,Pizza,0.54,172
+U0061,Bellandur,Kerala,0.9,68
+U0062,Bellandur,Bengali,0.28,363
+U0063,Richmond Town,South Indian,0.98,151
+U0064,JP Nagar,Street Food,0.59,139
+U0065,Yelahanka,North Indian,0.33,31
+U0066,Yelahanka,Mughlai,0.94,262
+U0067,Banashankari,Street Food,0.76,314
+U0068,Vijayanagar,Cafe,0.32,181
+U0069,BTM Layout,North Indian,0.66,307
+U0070,Indiranagar,Thai,0.25,329
+U0071,Sarjapur Road,Healthy,0.94,301
+U0072,JP Nagar,North Indian,0.97,71
+U0073,JP Nagar,Chinese,0.68,150
+U0074,Yelahanka,Biryani,0.95,321
+U0075,Marathahalli,Rajasthani,0.68,347
+U0076,HSR Layout,Street Food,0.73,319
+U0077,Domlur,Thai,0.95,134
+U0078,Vijayanagar,Thai,0.39,232
+U0079,Jayanagar,Continental,0.57,67
+U0080,Koramangala,Desserts,0.7,318
+U0081,Whitefield,Chinese,0.63,289
+U0082,Electronic City,Pizza,0.95,65
+U0083,Marathahalli,Japanese,0.43,254
+U0084,Richmond Town,Continental,0.69,364
+U0085,Domlur,South Indian,0.73,313
+U0086,Banashankari,Biryani,0.95,98
+U0087,Electronic City,Biryani,0.91,313
+U0088,Jayanagar,Mughlai,0.43,137
+U0089,Nagarbhavi,Thai,0.36,354
+U0090,Electronic City,Healthy,0.59,56
+U0091,HSR Layout,Street Food,0.86,52
+U0092,Koramangala,Thai,0.82,356
+U0093,Electronic City,Burger,0.79,312
+U0094,Nagarbhavi,Street Food,0.65,87
+U0095,HSR Layout,Pizza,0.64,219
+U0096,MG Road,Bengali,0.32,95
+U0097,Indiranagar,Continental,0.49,50
+U0098,Rajajinagar,Andhra,0.75,82
+U0099,Rajajinagar,Bengali,0.91,238
+U0100,Brigade Road,Pizza,0.94,151
+U0101,JP Nagar,Burger,0.91,42
+U0102,JP Nagar,Thai,0.83,240
+U0103,Vijayanagar,Kerala,0.41,85
+U0104,Yelahanka,North Indian,0.89,143
+U0105,BTM Layout,Desserts,0.48,146
+U0106,Marathahalli,South Indian,0.73,234
+U0107,Malleshwaram,Mughlai,0.89,172
+U0108,Rajajinagar,Healthy,0.52,304
+U0109,Malleshwaram,South Indian,0.29,163
+U0110,JP Nagar,Rajasthani,0.97,165
+U0111,Indiranagar,Biryani,0.68,206
+U0112,Bannerghatta Road,Thai,0.55,291
+U0113,Whitefield,Italian,0.92,127
+U0114,Electronic City,North Indian,0.77,30
+U0115,Domlur,Bengali,0.75,130
+U0116,Rajajinagar,Street Food,0.26,199
+U0117,Brigade Road,Thai,0.73,93
+U0118,Bannerghatta Road,Continental,0.61,239
+U0119,Malleshwaram,Italian,0.76,313
+U0120,Jayanagar,Andhra,0.54,224
+U0121,Vijayanagar,Burger,0.69,184
+U0122,Yelahanka,Bengali,0.87,185
+U0123,Banashankari,Andhra,0.54,326
+U0124,Brigade Road,Thai,0.57,256
+U0125,Vijayanagar,Andhra,0.61,116
+U0126,Vijayanagar,Chinese,0.43,354
+U0127,Brigade Road,Thai,0.27,150
+U0128,Vijayanagar,Continental,0.38,131
+U0129,Jayanagar,South Indian,0.24,273
+U0130,Brigade Road,Chinese,0.56,352
+U0131,MG Road,Andhra,0.77,226
+U0132,Sarjapur Road,Italian,0.4,365
+U0133,Nagarbhavi,South Indian,0.91,84
+U0134,Kanakapura Road,Street Food,0.38,295
+U0135,Bellandur,North Indian,0.65,92
+U0136,Bellandur,Pizza,0.84,301
+U0137,Richmond Town,Chettinad,0.45,256
+U0138,Brigade Road,Healthy,0.54,310
+U0139,Bellandur,Burger,0.79,273
+U0140,Bellandur,Mughlai,0.8,356
+U0141,Electronic City,Healthy,0.59,152
+U0142,Electronic City,Desserts,0.26,176
+U0143,Marathahalli,Mughlai,0.47,306
+U0144,HSR Layout,Pizza,0.32,226
+U0145,Nagarbhavi,Pizza,0.77,62
+U0146,Hebbal,Street Food,0.46,268
+U0147,Hebbal,North Indian,0.37,245
+U0148,Yelahanka,Rajasthani,0.96,40
+U0149,Kanakapura Road,Rajasthani,0.5,33
+U0150,Rajajinagar,Continental,0.8,244
+U0151,Richmond Town,Bengali,0.84,142
+U0152,Sarjapur Road,Kerala,0.42,278
+U0153,Koramangala,Italian,0.47,237
+U0154,Bannerghatta Road,Burger,0.87,95
+U0155,Brigade Road,Bengali,0.22,231
+U0156,MG Road,Rajasthani,0.73,72
+U0157,Basavanagudi,Street Food,0.31,266
+U0158,JP Nagar,North Indian,0.41,197
+U0159,BTM Layout,Desserts,0.46,224
+U0160,Electronic City,Street Food,0.4,71
+U0161,Sarjapur Road,South Indian,0.8,56
+U0162,Rajajinagar,Kerala,0.72,363
+U0163,Indiranagar,South Indian,0.96,132
+U0164,Koramangala,Chettinad,0.32,94
+U0165,Sarjapur Road,Biryani,0.65,141
+U0166,Bellandur,Mughlai,0.81,115
+U0167,Brigade Road,Chettinad,0.97,88
+U0168,Kanakapura Road,Burger,0.97,85
+U0169,MG Road,South Indian,0.94,324
+U0170,Vijayanagar,Italian,0.52,131
+U0171,HSR Layout,Rajasthani,0.75,351
+U0172,Marathahalli,Biryani,0.76,184
+U0173,Vijayanagar,Chettinad,0.84,319
+U0174,Indiranagar,Japanese,0.63,219
+U0175,HSR Layout,Healthy,0.72,36
+U0176,Hebbal,Cafe,0.28,215
+U0177,Basavanagudi,Desserts,0.77,252
+U0178,JP Nagar,Healthy,0.97,168
+U0179,Brigade Road,Bengali,0.82,268
+U0180,Hebbal,Rajasthani,0.41,155
+U0181,HSR Layout,Mughlai,0.91,154
+U0182,Kanakapura Road,Desserts,0.66,224
+U0183,Malleshwaram,South Indian,0.6,196
+U0184,JP Nagar,Cafe,0.37,162
+U0185,Malleshwaram,Mughlai,0.9,171
+U0186,Richmond Town,South Indian,0.61,127
+U0187,HSR Layout,Kerala,0.78,280
+U0188,Richmond Town,Kerala,0.75,360
+U0189,Nagarbhavi,Cafe,0.56,38
+U0190,HSR Layout,Continental,0.38,154
+U0191,Banashankari,Rajasthani,0.5,313
+U0192,Domlur,Japanese,0.54,311
+U0193,Malleshwaram,Japanese,0.76,168
+U0194,Banashankari,Mughlai,0.38,128
+U0195,Malleshwaram,Biryani,0.79,124
+U0196,BTM Layout,Andhra,0.79,171
+U0197,Bannerghatta Road,Rajasthani,0.98,298
+U0198,Brigade Road,Continental,0.98,129
+U0199,Banashankari,Kerala,0.49,184
+U0200,Koramangala,Bengali,0.3,53
+U0201,Indiranagar,Bengali,0.43,94
+U0202,Basavanagudi,Cafe,0.28,36
+U0203,MG Road,Continental,0.58,255
+U0204,Malleshwaram,Burger,0.97,159
+U0205,Sarjapur Road,Biryani,0.86,235
+U0206,Sarjapur Road,Chinese,0.66,57
+U0207,Jayanagar,Pizza,0.85,185
+U0208,HSR Layout,Kerala,0.29,243
+U0209,Brigade Road,Chettinad,0.83,145
+U0210,Kanakapura Road,Healthy,0.5,256
+U0211,Banashankari,Rajasthani,0.99,186
+U0212,MG Road,Chettinad,0.25,80
+U0213,Kanakapura Road,Andhra,0.7,165
+U0214,Vijayanagar,Chinese,0.33,118
+U0215,Richmond Town,Chinese,0.33,239
+U0216,Bellandur,Chettinad,0.58,46
+U0217,Marathahalli,Continental,0.77,262
+U0218,HSR Layout,Kerala,0.94,350
+U0219,MG Road,Andhra,0.54,308
+U0220,Marathahalli,Pizza,0.93,102
+U0221,HSR Layout,North Indian,0.33,187
+U0222,Brigade Road,Rajasthani,0.94,254
+U0223,Whitefield,Desserts,0.75,236
+U0224,Electronic City,Healthy,0.63,254
+U0225,HSR Layout,Chettinad,0.23,251
+U0226,Bannerghatta Road,Thai,0.68,43
+U0227,HSR Layout,Kerala,0.97,324
+U0228,MG Road,South Indian,1.0,167
+U0229,MG Road,North Indian,0.81,119
+U0230,Sarjapur Road,Healthy,0.72,172
+U0231,JP Nagar,Rajasthani,0.55,281
+U0232,HSR Layout,Cafe,0.48,200
+U0233,Malleshwaram,Biryani,0.89,198
+U0234,Hebbal,Cafe,0.43,235
+U0235,Kanakapura Road,Bengali,0.23,75
+U0236,Malleshwaram,Mughlai,0.46,236
+U0237,Domlur,South Indian,0.73,307
+U0238,Bellandur,Street Food,0.24,295
+U0239,Rajajinagar,Chettinad,0.81,350
+U0240,Bellandur,North Indian,0.36,311
+U0241,Jayanagar,Continental,0.55,278
+U0242,Whitefield,South Indian,0.98,341
+U0243,Marathahalli,Burger,0.45,37
+U0244,Richmond Town,Street Food,0.27,88
+U0245,Bellandur,Biryani,0.72,108
+U0246,Sarjapur Road,Continental,0.61,169
+U0247,Hebbal,Cafe,0.98,154
+U0248,Bellandur,Bengali,0.32,127
+U0249,Brigade Road,Healthy,0.8,99
+U0250,HSR Layout,Mughlai,0.82,242
+U0251,Malleshwaram,Healthy,0.41,31
+U0252,Banashankari,Continental,0.87,326
+U0253,Vijayanagar,Cafe,0.89,258
+U0254,Richmond Town,Cafe,0.48,312
+U0255,Kanakapura Road,Bengali,0.5,194
+U0256,BTM Layout,Kerala,0.66,149
+U0257,Kanakapura Road,Street Food,0.23,272
+U0258,Nagarbhavi,Italian,0.51,363
+U0259,Jayanagar,Cafe,0.97,94
+U0260,Domlur,Rajasthani,0.47,81
+U0261,Bellandur,Biryani,0.62,263
+U0262,Koramangala,Pizza,0.53,365
+U0263,Jayanagar,Chinese,0.58,165
+U0264,Malleshwaram,Chettinad,0.75,362
+U0265,HSR Layout,Thai,0.88,303
+U0266,Yelahanka,Thai,0.7,279
+U0267,Richmond Town,North Indian,0.69,150
+U0268,Basavanagudi,Continental,1.0,76
+U0269,Hebbal,Biryani,0.81,81
+U0270,Bellandur,Burger,0.76,44
+U0271,Indiranagar,Thai,0.84,180
+U0272,Rajajinagar,Japanese,0.54,155
+U0273,Domlur,Street Food,0.65,122
+U0274,JP Nagar,Burger,0.26,225
+U0275,Brigade Road,Kerala,0.6,328
+U0276,Jayanagar,Kerala,0.57,160
+U0277,Bellandur,Mughlai,0.73,268
+U0278,Banashankari,Bengali,0.33,256
+U0279,Rajajinagar,Rajasthani,0.44,247
+U0280,Nagarbhavi,Mughlai,0.57,184
+U0281,BTM Layout,Italian,0.88,84
+U0282,Marathahalli,Italian,0.66,324
+U0283,Banashankari,Continental,0.22,232
+U0284,Electronic City,South Indian,0.65,55
+U0285,Brigade Road,Cafe,0.87,176
+U0286,Kanakapura Road,Kerala,0.69,210
+U0287,Marathahalli,Andhra,0.7,100
+U0288,Basavanagudi,Biryani,0.92,360
+U0289,Indiranagar,Continental,0.83,47
+U0290,MG Road,Japanese,0.79,76
+U0291,Banashankari,Thai,0.8,119
+U0292,BTM Layout,Pizza,0.83,217
+U0293,Domlur,Healthy,0.93,114
+U0294,Electronic City,Cafe,0.97,181
+U0295,Bannerghatta Road,Thai,0.84,269
+U0296,HSR Layout,Pizza,0.8,145
+U0297,Vijayanagar,Italian,0.97,315
+U0298,Rajajinagar,Chinese,0.83,37
+U0299,Electronic City,Bengali,0.3,218
+U0300,Vijayanagar,Mughlai,0.67,356
+U0301,Rajajinagar,Biryani,0.74,271
+U0302,Koramangala,Chettinad,0.91,317
+U0303,Malleshwaram,Chettinad,0.38,62
+U0304,Basavanagudi,Desserts,0.93,184
+U0305,Basavanagudi,Street Food,0.29,53
+U0306,Indiranagar,Continental,1.0,89
+U0307,Whitefield,Kerala,0.91,99
+U0308,Yelahanka,Desserts,0.5,306
+U0309,Hebbal,Rajasthani,0.79,109
+U0310,Hebbal,Biryani,0.87,345
+U0311,Hebbal,Mughlai,0.23,219
+U0312,BTM Layout,Desserts,0.56,150
+U0313,Rajajinagar,Biryani,0.98,218
+U0314,Richmond Town,Japanese,0.25,171
+U0315,BTM Layout,Biryani,0.96,262
+U0316,HSR Layout,Andhra,0.71,335
+U0317,Koramangala,North Indian,0.83,154
+U0318,Jayanagar,Rajasthani,0.36,313
+U0319,BTM Layout,Rajasthani,0.37,149
+U0320,Malleshwaram,Pizza,0.83,335
+U0321,Koramangala,Mughlai,0.89,104
+U0322,Jayanagar,Bengali,0.4,119
+U0323,Whitefield,South Indian,0.31,213
+U0324,Marathahalli,Rajasthani,0.46,119
+U0325,Electronic City,North Indian,0.3,245
+U0326,Domlur,Biryani,0.8,273
+U0327,Bellandur,Japanese,0.61,85
+U0328,Bellandur,Healthy,0.38,344
+U0329,Indiranagar,Healthy,0.44,359
+U0330,Koramangala,North Indian,1.0,235
+U0331,Hebbal,Biryani,0.59,257
+U0332,HSR Layout,Chinese,0.46,105
+U0333,HSR Layout,Pizza,0.42,354
+U0334,MG Road,Bengali,0.77,225
+U0335,Brigade Road,Healthy,0.44,288
+U0336,Brigade Road,Street Food,0.28,88
+U0337,Basavanagudi,Bengali,0.78,140
+U0338,Hebbal,Desserts,0.91,241
+U0339,Malleshwaram,Desserts,0.52,78
+U0340,Malleshwaram,Street Food,0.45,160
+U0341,Rajajinagar,Pizza,0.75,272
+U0342,HSR Layout,Chinese,0.87,77
+U0343,Hebbal,Biryani,0.8,220
+U0344,Jayanagar,Bengali,0.25,317
+U0345,Richmond Town,Thai,0.74,240
+U0346,Rajajinagar,Street Food,0.89,56
+U0347,Banashankari,Chettinad,0.45,83
+U0348,MG Road,Healthy,0.37,276
+U0349,Marathahalli,Biryani,0.48,314
+U0350,Rajajinagar,Biryani,0.81,323
+U0351,Marathahalli,Street Food,0.88,348
+U0352,Brigade Road,Bengali,0.22,166
+U0353,Koramangala,Burger,0.42,188
+U0354,Malleshwaram,Japanese,0.2,103
+U0355,MG Road,Italian,0.26,354
+U0356,Koramangala,Chinese,0.8,140
+U0357,Yelahanka,Street Food,0.56,110
+U0358,Rajajinagar,Continental,0.78,320
+U0359,Brigade Road,Chinese,0.91,109
+U0360,JP Nagar,Chettinad,0.24,71
+U0361,Electronic City,Desserts,0.73,278
+U0362,Brigade Road,Desserts,0.53,140
+U0363,Kanakapura Road,Healthy,0.29,250
+U0364,Whitefield,Continental,0.74,333
+U0365,Sarjapur Road,Healthy,0.73,53
+U0366,Marathahalli,Italian,0.99,58
+U0367,Koramangala,Andhra,0.44,138
+U0368,Kanakapura Road,Pizza,0.81,178
+U0369,Malleshwaram,Biryani,0.21,250
+U0370,JP Nagar,Pizza,0.5,147
+U0371,Domlur,Bengali,0.87,211
+U0372,HSR Layout,Italian,0.89,51
+U0373,Hebbal,South Indian,0.57,69
+U0374,Malleshwaram,Rajasthani,0.54,237
+U0375,Nagarbhavi,Street Food,0.43,237
+U0376,Koramangala,Thai,0.34,346
+U0377,Bellandur,Japanese,0.27,84
+U0378,Marathahalli,Street Food,0.67,298
+U0379,HSR Layout,Italian,0.9,203
+U0380,Marathahalli,Thai,0.82,69
+U0381,Domlur,Biryani,0.62,129
+U0382,Kanakapura Road,Japanese,0.48,360
+U0383,Jayanagar,Kerala,0.28,161
+U0384,BTM Layout,Burger,0.68,365
+U0385,HSR Layout,Burger,0.96,351
+U0386,Sarjapur Road,Desserts,0.8,326
+U0387,Bellandur,Rajasthani,0.71,349
+U0388,Malleshwaram,Thai,0.32,64
+U0389,Sarjapur Road,Desserts,0.71,170
+U0390,MG Road,North Indian,0.48,67
+U0391,Banashankari,Desserts,0.56,59
+U0392,Rajajinagar,Continental,0.26,76
+U0393,Brigade Road,Chettinad,0.61,266
+U0394,MG Road,Bengali,0.96,51
+U0395,Bellandur,Rajasthani,0.72,194
+U0396,Brigade Road,Cafe,0.6,61
+U0397,Bellandur,Biryani,0.85,205
+U0398,Nagarbhavi,Chinese,0.6,118
+U0399,Indiranagar,Kerala,0.77,254
+U0400,Domlur,Healthy,0.69,216
+U0401,Rajajinagar,Continental,0.51,203
+U0402,Vijayanagar,Chettinad,0.24,353
+U0403,Basavanagudi,Thai,0.25,78
+U0404,Richmond Town,Italian,0.43,338
+U0405,Jayanagar,Thai,0.27,102
+U0406,Rajajinagar,Continental,0.97,230
+U0407,Jayanagar,Chettinad,0.77,73
+U0408,Banashankari,Bengali,0.5,198
+U0409,Jayanagar,Healthy,0.27,246
+U0410,Domlur,Japanese,0.21,188
+U0411,JP Nagar,Andhra,0.47,278
+U0412,BTM Layout,Kerala,1.0,109
+U0413,HSR Layout,Continental,0.88,81
+U0414,Domlur,Bengali,0.87,299
+U0415,Indiranagar,Thai,0.9,346
+U0416,Jayanagar,Chettinad,0.5,113
+U0417,JP Nagar,Chettinad,0.85,114
+U0418,Bannerghatta Road,Desserts,0.23,216
+U0419,Vijayanagar,Kerala,0.98,342
+U0420,Banashankari,Desserts,0.39,152
+U0421,Banashankari,Cafe,0.92,129
+U0422,Rajajinagar,Rajasthani,0.99,266
+U0423,Kanakapura Road,Continental,0.82,287
+U0424,Domlur,Street Food,0.97,132
+U0425,Brigade Road,Pizza,0.9,56
+U0426,Basavanagudi,Cafe,0.9,313
+U0427,Whitefield,Healthy,0.88,175
+U0428,HSR Layout,Burger,0.42,292
+U0429,Jayanagar,Street Food,0.27,143
+U0430,Bellandur,Japanese,0.94,242
+U0431,Indiranagar,Italian,0.6,150
+U0432,Yelahanka,Chinese,0.5,44
+U0433,Malleshwaram,Biryani,0.87,362
+U0434,Malleshwaram,Pizza,0.31,176
+U0435,Sarjapur Road,Pizza,0.81,270
+U0436,Bellandur,Chettinad,0.2,70
+U0437,Koramangala,Mughlai,0.37,106
+U0438,Richmond Town,Chettinad,0.62,86
+U0439,Kanakapura Road,Continental,0.39,92
+U0440,Indiranagar,Kerala,0.54,348
+U0441,Bellandur,Chinese,0.29,285
+U0442,Brigade Road,Bengali,0.21,293
+U0443,MG Road,Kerala,0.77,179
+U0444,Hebbal,South Indian,0.69,153
+U0445,MG Road,Street Food,0.35,73
+U0446,Domlur,Japanese,0.25,299
+U0447,Richmond Town,Healthy,0.83,289
+U0448,Richmond Town,South Indian,0.51,270
+U0449,Indiranagar,Italian,0.98,159
+U0450,Bannerghatta Road,South Indian,0.49,64
+U0451,Rajajinagar,Kerala,0.79,351
+U0452,Whitefield,Rajasthani,0.79,200
+U0453,Jayanagar,North Indian,0.48,203
+U0454,Basavanagudi,Burger,0.86,267
+U0455,Nagarbhavi,Cafe,0.71,99
+U0456,HSR Layout,Desserts,0.23,133
+U0457,Indiranagar,Andhra,0.91,191
+U0458,Banashankari,Healthy,0.52,308
+U0459,Sarjapur Road,Mughlai,0.23,361
+U0460,BTM Layout,Continental,0.49,54
+U0461,Basavanagudi,Thai,0.42,218
+U0462,Hebbal,Italian,0.79,227
+U0463,Malleshwaram,Burger,0.6,284
+U0464,Rajajinagar,Healthy,0.41,72
+U0465,Bannerghatta Road,Street Food,0.26,338
+U0466,JP Nagar,Bengali,0.44,82
+U0467,HSR Layout,Thai,0.73,186
+U0468,Bellandur,Chettinad,0.77,115
+U0469,Nagarbhavi,Desserts,0.48,51
+U0470,Bannerghatta Road,Japanese,0.69,252
+U0471,Electronic City,North Indian,0.26,356
+U0472,Yelahanka,Japanese,0.61,111
+U0473,Koramangala,Pizza,0.88,254
+U0474,Indiranagar,Pizza,0.25,360
+U0475,Rajajinagar,Japanese,0.51,320
+U0476,Indiranagar,Chettinad,0.32,260
+U0477,Rajajinagar,Japanese,0.56,69
+U0478,MG Road,Pizza,0.62,233
+U0479,Malleshwaram,Mughlai,0.4,88
+U0480,Koramangala,Burger,0.6,228
+U0481,Richmond Town,Biryani,0.41,163
+U0482,Nagarbhavi,Desserts,0.37,343
+U0483,Banashankari,Cafe,0.36,99
+U0484,HSR Layout,Desserts,0.34,257
+U0485,HSR Layout,Thai,0.73,63
+U0486,Richmond Town,Bengali,0.43,183
+U0487,JP Nagar,Burger,0.83,290
+U0488,Marathahalli,Biryani,0.99,101
+U0489,Marathahalli,Cafe,0.22,313
+U0490,MG Road,Japanese,0.57,312
+U0491,Jayanagar,Chettinad,0.91,63
+U0492,Banashankari,Italian,1.0,275
+U0493,Domlur,Street Food,0.82,324
+U0494,HSR Layout,Pizza,0.98,358
+U0495,HSR Layout,Desserts,0.57,294
+U0496,Rajajinagar,Pizza,0.9,312
+U0497,Basavanagudi,Rajasthani,0.35,96
+U0498,Hebbal,Healthy,0.93,58
+U0499,Whitefield,Healthy,0.32,114

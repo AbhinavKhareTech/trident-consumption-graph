@@ -1,0 +1,12 @@
+[
+  {"id": "P0001", "name": "Coca Cola 750ml", "category": "Beverages", "price": 40, "brand": "Coca Cola"},
+  {"id": "P0002", "name": "Harpic 500ml", "category": "Cleaning", "price": 189, "brand": "Reckitt"},
+  {"id": "P0003", "name": "Amul Toned Milk 1L", "category": "Dairy", "price": 60, "brand": "Amul"},
+  {"id": "P0004", "name": "Lays Classic 52g", "category": "Snacks", "price": 20, "brand": "PepsiCo"},
+  {"id": "P0005", "name": "Surf Excel 1kg", "category": "Cleaning", "price": 245, "brand": "HUL"},
+  {"id": "P0006", "name": "Amul Butter 100g", "category": "Dairy", "price": 56, "brand": "Amul"},
+  {"id": "P0007", "name": "Colgate 150g", "category": "Personal Care", "price": 95, "brand": "Colgate"},
+  {"id": "P0008", "name": "Red Bull 250ml", "category": "Beverages", "price": 125, "brand": "Red Bull"},
+  {"id": "P0009", "name": "Parle G 250g", "category": "Snacks", "price": 25, "brand": "Parle"},
+  {"id": "P0010", "name": "Nandini Curd 400g", "category": "Dairy", "price": 35, "brand": "KMF"}
+]

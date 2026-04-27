@@ -1,0 +1,12 @@
+[
+  {"id": "R0001", "name": "Meghana Foods", "cuisine": "Biryani", "rating": 4.5, "price_range": 2, "delivery_time": 35, "area": "Koramangala"},
+  {"id": "R0002", "name": "Nandhana Palace", "cuisine": "Andhra", "rating": 4.3, "price_range": 2, "delivery_time": 30, "area": "Koramangala"},
+  {"id": "R0003", "name": "Truffles", "cuisine": "Continental", "rating": 4.4, "price_range": 3, "delivery_time": 40, "area": "Indiranagar"},
+  {"id": "R0004", "name": "MTR", "cuisine": "South Indian", "rating": 4.6, "price_range": 2, "delivery_time": 25, "area": "Jayanagar"},
+  {"id": "R0005", "name": "Empire Restaurant", "cuisine": "Biryani", "rating": 4.1, "price_range": 2, "delivery_time": 30, "area": "Brigade Road"},
+  {"id": "R0006", "name": "Vidyarthi Bhavan", "cuisine": "South Indian", "rating": 4.7, "price_range": 1, "delivery_time": 20, "area": "Basavanagudi"},
+  {"id": "R0007", "name": "Corner House", "cuisine": "Desserts", "rating": 4.5, "price_range": 2, "delivery_time": 25, "area": "Residency Road"},
+  {"id": "R0008", "name": "Domino's Pizza", "cuisine": "Pizza", "rating": 3.9, "price_range": 2, "delivery_time": 30, "area": "HSR Layout"},
+  {"id": "R0009", "name": "Third Wave Coffee", "cuisine": "Cafe", "rating": 4.3, "price_range": 3, "delivery_time": 20, "area": "Indiranagar"},
+  {"id": "R0010", "name": "Nagarjuna", "cuisine": "Andhra", "rating": 4.4, "price_range": 2, "delivery_time": 35, "area": "Residency Road"}
+]

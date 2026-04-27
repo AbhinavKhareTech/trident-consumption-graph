@@ -1,0 +1,201 @@
+restaurant_id,name,cuisine,rating,price_range,avg_delivery_time_min,area,lat,lng
+R0000,Meghana Foods,Burger,3.7,2,42,Domlur,13.018478,77.70378
+R0001,Nandhana Palace,Mughlai,3.5,3,28,Basavanagudi,12.840847,77.610043
+R0002,Empire Restaurant,Healthy,4.3,2,30,Vijayanagar,12.937344,77.7206
+R0003,MTR,Thai,4.6,1,21,HSR Layout,12.763639,77.642436
+R0004,Vidyarthi Bhavan,Rajasthani,3.6,2,46,Brigade Road,12.941697,77.599411
+R0005,Truffles,Bengali,3.7,3,50,Marathahalli,12.991406,77.655497
+R0006,Toit,Continental,4.0,1,30,Bellandur,12.874687,77.589333
+R0007,Corner House,Thai,4.2,3,40,Bannerghatta Road,13.046407,77.553611
+R0008,Brahmin's Coffee Bar,Italian,3.4,3,52,Richmond Town,12.781855,77.522521
+R0009,Mavalli Tiffin Rooms,Biryani,3.7,2,29,Whitefield,12.765182,77.733615
+R0010,A2B,Chettinad,3.9,2,40,MG Road,12.966339,77.50695
+R0011,Shivaji Military Hotel,Burger,4.0,4,51,Banashankari,12.899211,77.477015
+R0012,Nagarjuna,Italian,4.1,2,33,MG Road,12.855869,77.465162
+R0013,Paradise Biryani,Cafe,4.2,4,38,Richmond Town,12.752453,77.482249
+R0014,Behrouz Biryani,Pizza,4.7,3,45,Rajajinagar,12.763573,77.465347
+R0015,Domino's Pizza,Bengali,3.5,3,24,Yelahanka,12.901277,77.679321
+R0016,Pizza Hut,Mughlai,4.6,1,28,Whitefield,12.868171,77.688469
+R0017,McDonald's,Thai,4.1,3,29,BTM Layout,12.930739,77.570416
+R0018,KFC,North Indian,3.3,2,41,Sarjapur Road,12.9058,77.494682
+R0019,Burger King,Healthy,3.4,3,30,Yelahanka,13.047185,77.671796
+R0020,Subway,Continental,4.2,4,39,Sarjapur Road,12.994725,77.560507
+R0021,Starbucks,Biryani,4.9,3,21,Brigade Road,12.892377,77.740121
+R0022,Chai Point,Rajasthani,4.2,1,50,JP Nagar,12.90727,77.666355
+R0023,Third Wave Coffee,Italian,3.5,2,22,MG Road,13.034462,77.482969
+R0024,Blue Tokai,South Indian,3.9,4,29,Hebbal,12.95715,77.573113
+R0025,Meghana Foods Koramangala,Chettinad,4.8,1,28,Domlur,12.812203,77.547515
+R0026,Nandhana Palace Indiranagar,Cafe,4.1,3,31,Bellandur,13.023637,77.552698
+R0027,Empire Restaurant HSR Layout,Japanese,4.3,3,50,BTM Layout,13.037201,77.533702
+R0028,MTR Whitefield,Continental,3.6,3,38,Nagarbhavi,12.812183,77.661496
+R0029,Vidyarthi Bhavan Jayanagar,Thai,4.0,3,38,Whitefield,12.922043,77.612957
+R0030,Truffles JP Nagar,Italian,4.6,2,38,Indiranagar,12.836289,77.664242
+R0031,Toit BTM Layout,Japanese,4.8,3,50,BTM Layout,12.81062,77.611573
+R0032,Corner House Marathahalli,Bengali,4.4,2,26,Brigade Road,12.972267,77.521785
+R0033,Brahmin's Coffee Bar Electronic City,North Indian,4.3,2,34,Indiranagar,12.780059,77.549088
+R0034,Mavalli Tiffin Rooms Banashankari,Cafe,3.4,2,20,Richmond Town,13.043373,77.497382
+R0035,A2B Malleshwaram,Cafe,4.0,2,38,Malleshwaram,12.835625,77.467749
+R0036,Shivaji Military Hotel Rajajinagar,Chinese,4.3,2,54,Bannerghatta Road,12.966935,77.731001
+R0037,Nagarjuna Yelahanka,Burger,3.9,2,22,Yelahanka,12.986388,77.505893
+R0038,Paradise Biryani Hebbal,Continental,4.7,1,39,MG Road,12.930835,77.728536
+R0039,Behrouz Biryani Bellandur,Thai,3.7,4,28,Domlur,12.890406,77.507843
+R0040,Domino's Pizza Sarjapur Road,Biryani,3.8,4,36,Nagarbhavi,12.80586,77.670985
+R0041,Pizza Hut Domlur,Continental,4.2,2,31,Brigade Road,13.006844,77.719113
+R0042,McDonald's Richmond Town,Street Food,4.1,1,45,Vijayanagar,12.778616,77.744506
+R0043,KFC MG Road,Cafe,3.8,2,20,Electronic City,12.865072,77.584021
+R0044,Burger King Brigade Road,Mughlai,4.8,3,20,Electronic City,12.946105,77.657831
+R0045,Subway Basavanagudi,North Indian,4.3,4,39,JP Nagar,12.871625,77.600756
+R0046,Starbucks Vijayanagar,Continental,4.4,3,43,Brigade Road,12.816255,77.737208
+R0047,Chai Point Nagarbhavi,Cafe,3.5,3,46,Nagarbhavi,12.91477,77.591248
+R0048,Third Wave Coffee Bannerghatta Road,Bengali,4.6,2,35,Vijayanagar,12.976422,77.711941
+R0049,Blue Tokai Kanakapura Road,Chinese,4.1,3,24,MG Road,12.783663,77.698632
+R0050,Meghana Foods Koramangala,Healthy,3.5,2,30,Malleshwaram,13.006346,77.582552
+R0051,Nandhana Palace Indiranagar,Andhra,4.4,4,25,Domlur,12.883645,77.466691
+R0052,Empire Restaurant HSR Layout,Pizza,4.1,4,23,Richmond Town,12.888713,77.692075
+R0053,MTR Whitefield,South Indian,3.9,1,33,MG Road,12.771909,77.577109
+R0054,Vidyarthi Bhavan Jayanagar,Chinese,4.1,1,24,Sarjapur Road,12.75952,77.57266
+R0055,Truffles JP Nagar,Pizza,4.5,4,43,Yelahanka,12.884561,77.725135
+R0056,Toit BTM Layout,Italian,3.8,2,42,Whitefield,12.803542,77.611178
+R0057,Corner House Marathahalli,Healthy,3.4,2,20,Kanakapura Road,12.756821,77.539509
+R0058,Brahmin's Coffee Bar Electronic City,Bengali,3.9,4,34,Marathahalli,12.888188,77.496536
+R0059,Mavalli Tiffin Rooms Banashankari,Andhra,4.8,1,22,Vijayanagar,12.875772,77.679816
+R0060,A2B Malleshwaram,South Indian,3.6,1,26,Brigade Road,12.760073,77.629335
+R0061,Shivaji Military Hotel Rajajinagar,North Indian,3.6,1,45,Bellandur,12.820302,77.515181
+R0062,Nagarjuna Yelahanka,North Indian,3.4,3,34,Bannerghatta Road,12.922833,77.623242
+R0063,Paradise Biryani Hebbal,Thai,3.6,2,53,Marathahalli,12.874068,77.532546
+R0064,Behrouz Biryani Bellandur,Bengali,4.8,2,47,Richmond Town,12.898686,77.741687
+R0065,Domino's Pizza Sarjapur Road,Italian,4.5,3,46,Hebbal,12.794765,77.562938
+R0066,Pizza Hut Domlur,Bengali,4.0,2,39,Nagarbhavi,12.793306,77.588908
+R0067,McDonald's Richmond Town,North Indian,4.2,4,55,Domlur,12.790228,77.522858
+R0068,KFC MG Road,Andhra,3.8,1,48,Rajajinagar,12.777739,77.667375
+R0069,Burger King Brigade Road,Andhra,3.3,4,22,HSR Layout,12.806449,77.678509
+R0070,Subway Basavanagudi,Bengali,3.6,2,41,Banashankari,13.037106,77.4546
+R0071,Starbucks Vijayanagar,Andhra,4.8,1,50,Marathahalli,12.958688,77.661131
+R0072,Chai Point Nagarbhavi,Italian,4.8,3,38,Yelahanka,12.889875,77.644616
+R0073,Third Wave Coffee Bannerghatta Road,Continental,3.6,4,49,Whitefield,12.990845,77.666724
+R0074,Blue Tokai Kanakapura Road,Thai,4.8,3,40,Hebbal,12.763715,77.709225
+R0075,Meghana Foods Koramangala,Pizza,3.2,4,38,Jayanagar,12.808858,77.519006
+R0076,Nandhana Palace Indiranagar,Rajasthani,4.6,4,55,Basavanagudi,13.033039,77.551269
+R0077,Empire Restaurant HSR Layout,Cafe,4.8,4,49,JP Nagar,12.969832,77.555653
+R0078,MTR Whitefield,Pizza,4.4,4,31,Richmond Town,13.047097,77.737171
+R0079,Vidyarthi Bhavan Jayanagar,Healthy,3.3,1,23,Kanakapura Road,12.751915,77.491247
+R0080,Truffles JP Nagar,Kerala,3.3,2,20,BTM Layout,12.90172,77.56196
+R0081,Toit BTM Layout,Chettinad,4.3,4,51,Koramangala,12.751984,77.615493
+R0082,Corner House Marathahalli,South Indian,3.2,3,54,Banashankari,12.755143,77.693947
+R0083,Brahmin's Coffee Bar Electronic City,Street Food,4.6,2,26,Whitefield,12.907316,77.522291
+R0084,Mavalli Tiffin Rooms Banashankari,Chettinad,4.1,3,37,Yelahanka,12.773706,77.737789
+R0085,A2B Malleshwaram,Desserts,4.2,2,39,Vijayanagar,12.998419,77.474185
+R0086,Shivaji Military Hotel Rajajinagar,North Indian,3.4,4,44,Richmond Town,12.892802,77.641024
+R0087,Nagarjuna Yelahanka,Burger,3.3,4,41,MG Road,13.043199,77.742152
+R0088,Paradise Biryani Hebbal,Healthy,4.8,2,33,Nagarbhavi,13.016266,77.59265
+R0089,Behrouz Biryani Bellandur,North Indian,4.8,3,54,MG Road,12.947433,77.503806
+R0090,Domino's Pizza Sarjapur Road,Thai,3.2,2,29,Kanakapura Road,12.996207,77.696271
+R0091,Pizza Hut Domlur,Chinese,3.7,2,44,Vijayanagar,13.018958,77.549519
+R0092,McDonald's Richmond Town,Pizza,4.5,1,52,Bannerghatta Road,13.042297,77.466109
+R0093,KFC MG Road,Street Food,3.6,1,41,Brigade Road,12.980702,77.736458
+R0094,Burger King Brigade Road,Italian,4.8,3,21,Basavanagudi,12.831998,77.747776
+R0095,Subway Basavanagudi,Cafe,3.6,4,47,JP Nagar,12.953908,77.648202
+R0096,Starbucks Vijayanagar,Chinese,4.5,3,35,Nagarbhavi,12.772052,77.530392
+R0097,Chai Point Nagarbhavi,Italian,4.4,2,44,Malleshwaram,12.85821,77.477456
+R0098,Third Wave Coffee Bannerghatta Road,Continental,4.0,3,26,Jayanagar,12.776189,77.579294
+R0099,Blue Tokai Kanakapura Road,Bengali,4.1,4,26,Koramangala,12.776886,77.616266
+R0100,Meghana Foods Koramangala,Chettinad,4.2,3,44,Koramangala,12.837554,77.56634
+R0101,Nandhana Palace Indiranagar,Chinese,4.4,2,53,JP Nagar,12.955595,77.500851
+R0102,Empire Restaurant HSR Layout,Mughlai,3.7,4,29,HSR Layout,12.800162,77.532789
+R0103,MTR Whitefield,Continental,4.0,1,43,Electronic City,13.033267,77.66627
+R0104,Vidyarthi Bhavan Jayanagar,Cafe,4.2,2,49,Whitefield,12.790647,77.45203
+R0105,Truffles JP Nagar,Italian,3.8,4,41,Bellandur,12.850421,77.694643
+R0106,Toit BTM Layout,Chettinad,3.4,3,32,Sarjapur Road,12.844255,77.739372
+R0107,Corner House Marathahalli,Thai,3.7,4,35,Malleshwaram,12.862817,77.694948
+R0108,Brahmin's Coffee Bar Electronic City,Italian,3.8,2,54,JP Nagar,12.954514,77.61503
+R0109,Mavalli Tiffin Rooms Banashankari,Desserts,4.8,2,48,Banashankari,12.999385,77.470748
+R0110,A2B Malleshwaram,Street Food,4.3,2,39,Marathahalli,12.825805,77.496243
+R0111,Shivaji Military Hotel Rajajinagar,Street Food,4.5,1,48,Brigade Road,12.89377,77.570242
+R0112,Nagarjuna Yelahanka,Healthy,4.8,4,54,Indiranagar,12.987216,77.557859
+R0113,Paradise Biryani Hebbal,Bengali,4.2,1,26,Kanakapura Road,12.824469,77.649408
+R0114,Behrouz Biryani Bellandur,Burger,4.3,1,45,Kanakapura Road,12.849479,77.688869
+R0115,Domino's Pizza Sarjapur Road,Biryani,3.2,3,34,Domlur,12.974056,77.617398
+R0116,Pizza Hut Domlur,Rajasthani,3.6,3,45,Bellandur,12.981703,77.626577
+R0117,McDonald's Richmond Town,Healthy,3.5,1,50,Whitefield,12.83863,77.726164
+R0118,KFC MG Road,Chinese,3.4,2,42,Banashankari,12.85292,77.685281
+R0119,Burger King Brigade Road,Healthy,4.0,4,26,Bellandur,12.966598,77.585734
+R0120,Subway Basavanagudi,Chinese,3.7,1,21,Malleshwaram,12.944391,77.653142
+R0121,Starbucks Vijayanagar,Burger,4.8,2,53,JP Nagar,12.915573,77.549297
+R0122,Chai Point Nagarbhavi,Street Food,4.8,2,45,Basavanagudi,12.805336,77.642144
+R0123,Third Wave Coffee Bannerghatta Road,Street Food,3.9,2,48,MG Road,12.878866,77.451335
+R0124,Blue Tokai Kanakapura Road,Andhra,3.5,1,26,Richmond Town,12.806088,77.547795
+R0125,Meghana Foods Koramangala,Desserts,3.4,4,53,Basavanagudi,12.844021,77.566592
+R0126,Nandhana Palace Indiranagar,Italian,4.2,3,42,Bellandur,12.935209,77.694121
+R0127,Empire Restaurant HSR Layout,Continental,4.8,1,28,Malleshwaram,12.785358,77.541614
+R0128,MTR Whitefield,Burger,3.8,2,52,Yelahanka,12.875472,77.49136
+R0129,Vidyarthi Bhavan Jayanagar,Italian,3.9,4,54,Nagarbhavi,13.025748,77.729208
+R0130,Truffles JP Nagar,Burger,4.1,4,38,Jayanagar,12.80613,77.702596
+R0131,Toit BTM Layout,Chettinad,3.3,3,20,Sarjapur Road,12.79096,77.694565
+R0132,Corner House Marathahalli,Bengali,4.1,4,46,Vijayanagar,12.897518,77.663043
+R0133,Brahmin's Coffee Bar Electronic City,Desserts,4.0,1,21,Kanakapura Road,12.816159,77.459809
+R0134,Mavalli Tiffin Rooms Banashankari,Kerala,4.1,2,49,MG Road,12.972755,77.679776
+R0135,A2B Malleshwaram,Bengali,4.1,1,37,Kanakapura Road,12.912932,77.747268
+R0136,Shivaji Military Hotel Rajajinagar,Bengali,4.6,1,48,Richmond Town,12.815563,77.577546
+R0137,Nagarjuna Yelahanka,Kerala,3.7,1,48,Electronic City,12.854573,77.695019
+R0138,Paradise Biryani Hebbal,Desserts,4.7,1,35,BTM Layout,12.993211,77.626377
+R0139,Behrouz Biryani Bellandur,Japanese,4.7,4,30,Brigade Road,12.79177,77.511986
+R0140,Domino's Pizza Sarjapur Road,Andhra,4.6,3,54,Electronic City,12.929057,77.500513
+R0141,Pizza Hut Domlur,Continental,3.7,3,52,Vijayanagar,12.994554,77.490677
+R0142,McDonald's Richmond Town,Street Food,4.8,3,28,Nagarbhavi,13.009824,77.524903
+R0143,KFC MG Road,Thai,4.6,4,51,Jayanagar,12.923228,77.530615
+R0144,Burger King Brigade Road,Street Food,3.8,1,25,Yelahanka,12.904684,77.533468
+R0145,Subway Basavanagudi,Japanese,4.0,4,40,MG Road,12.750742,77.682241
+R0146,Starbucks Vijayanagar,Chinese,4.4,4,42,HSR Layout,12.988703,77.569315
+R0147,Chai Point Nagarbhavi,Street Food,4.6,4,37,Malleshwaram,12.998503,77.551327
+R0148,Third Wave Coffee Bannerghatta Road,Rajasthani,3.4,4,41,Vijayanagar,12.978676,77.463783
+R0149,Blue Tokai Kanakapura Road,Desserts,3.2,2,48,Bellandur,12.750203,77.73741
+R0150,Meghana Foods Koramangala,Andhra,4.9,2,39,JP Nagar,13.012327,77.712979
+R0151,Nandhana Palace Indiranagar,Chinese,4.3,3,25,Rajajinagar,12.949353,77.644673
+R0152,Empire Restaurant HSR Layout,North Indian,3.9,3,34,Hebbal,12.946646,77.661109
+R0153,MTR Whitefield,South Indian,3.6,1,28,MG Road,12.817857,77.653995
+R0154,Vidyarthi Bhavan Jayanagar,South Indian,3.2,3,27,Hebbal,12.958209,77.59331
+R0155,Truffles JP Nagar,Kerala,3.9,1,26,Malleshwaram,12.860269,77.539777
+R0156,Toit BTM Layout,Italian,4.5,2,29,HSR Layout,12.909152,77.452542
+R0157,Corner House Marathahalli,Burger,3.9,2,29,Hebbal,12.934823,77.582715
+R0158,Brahmin's Coffee Bar Electronic City,Andhra,3.3,1,28,Kanakapura Road,12.786947,77.669003
+R0159,Mavalli Tiffin Rooms Banashankari,Japanese,4.8,3,28,Marathahalli,12.83309,77.475275
+R0160,A2B Malleshwaram,Bengali,4.2,3,21,Vijayanagar,13.012748,77.511634
+R0161,Shivaji Military Hotel Rajajinagar,Chettinad,4.1,4,38,Basavanagudi,12.766371,77.719374
+R0162,Nagarjuna Yelahanka,Kerala,4.0,1,35,Sarjapur Road,12.941425,77.471304
+R0163,Paradise Biryani Hebbal,South Indian,4.9,3,28,Yelahanka,13.008244,77.620514
+R0164,Behrouz Biryani Bellandur,Japanese,4.1,2,50,Kanakapura Road,12.771898,77.626209
+R0165,Domino's Pizza Sarjapur Road,South Indian,3.6,1,23,Yelahanka,12.901983,77.638571
+R0166,Pizza Hut Domlur,Healthy,4.5,4,45,HSR Layout,12.942161,77.611297
+R0167,McDonald's Richmond Town,Pizza,3.7,3,25,Domlur,13.026277,77.742294
+R0168,KFC MG Road,Pizza,4.1,4,24,Banashankari,12.959603,77.668988
+R0169,Burger King Brigade Road,Kerala,3.3,1,47,Whitefield,12.886012,77.63265
+R0170,Subway Basavanagudi,Continental,4.3,2,27,Koramangala,12.96237,77.66045
+R0171,Starbucks Vijayanagar,Burger,4.0,3,53,Domlur,12.984896,77.66623
+R0172,Chai Point Nagarbhavi,Burger,3.8,3,27,Kanakapura Road,13.019969,77.550503
+R0173,Third Wave Coffee Bannerghatta Road,Street Food,3.7,1,36,Nagarbhavi,13.042515,77.63826
+R0174,Blue Tokai Kanakapura Road,Cafe,4.0,3,23,Sarjapur Road,13.007808,77.500064
+R0175,Meghana Foods Koramangala,Burger,3.6,1,27,Marathahalli,12.972234,77.450771
+R0176,Nandhana Palace Indiranagar,South Indian,3.6,4,43,Yelahanka,13.026068,77.503688
+R0177,Empire Restaurant HSR Layout,North Indian,4.1,4,34,Malleshwaram,12.824479,77.724756
+R0178,MTR Whitefield,Thai,3.7,1,43,Whitefield,12.900612,77.720582
+R0179,Vidyarthi Bhavan Jayanagar,Burger,3.6,1,45,HSR Layout,13.013097,77.70981
+R0180,Truffles JP Nagar,Continental,3.8,4,20,Rajajinagar,12.810201,77.619142
+R0181,Toit BTM Layout,Continental,4.5,2,49,Rajajinagar,12.927507,77.598008
+R0182,Corner House Marathahalli,Andhra,4.4,2,29,Koramangala,13.029719,77.457173
+R0183,Brahmin's Coffee Bar Electronic City,Bengali,3.8,1,41,Koramangala,12.977679,77.562882
+R0184,Mavalli Tiffin Rooms Banashankari,Continental,3.4,2,46,Sarjapur Road,13.038356,77.741768
+R0185,A2B Malleshwaram,Pizza,4.4,1,22,Marathahalli,13.019186,77.605928
+R0186,Shivaji Military Hotel Rajajinagar,Japanese,4.0,1,26,Domlur,12.790054,77.695989
+R0187,Nagarjuna Yelahanka,Chinese,4.2,1,47,Vijayanagar,13.039265,77.521032
+R0188,Paradise Biryani Hebbal,Mughlai,4.6,4,40,Malleshwaram,12.885827,77.520083
+R0189,Behrouz Biryani Bellandur,Andhra,3.4,1,29,Whitefield,12.799312,77.589817
+R0190,Domino's Pizza Sarjapur Road,Street Food,3.4,3,33,Bellandur,12.842492,77.529502
+R0191,Pizza Hut Domlur,Biryani,3.4,3,22,BTM Layout,13.000777,77.548338
+R0192,McDonald's Richmond Town,Chinese,4.4,3,45,Domlur,12.764685,77.539652
+R0193,KFC MG Road,Burger,3.3,4,48,Richmond Town,12.974424,77.524956
+R0194,Burger King Brigade Road,Desserts,3.4,2,27,Koramangala,12.768501,77.684288
+R0195,Subway Basavanagudi,Kerala,3.4,4,43,Vijayanagar,12.939089,77.643406
+R0196,Starbucks Vijayanagar,Rajasthani,4.2,1,21,HSR Layout,12.809325,77.643796
+R0197,Chai Point Nagarbhavi,Pizza,3.4,3,27,Indiranagar,13.032684,77.465191
+R0198,Third Wave Coffee Bannerghatta Road,Rajasthani,3.9,4,51,Koramangala,12.864819,77.577999
+R0199,Blue Tokai Kanakapura Road,Japanese,3.6,2,37,Electronic City,12.883803,77.494589

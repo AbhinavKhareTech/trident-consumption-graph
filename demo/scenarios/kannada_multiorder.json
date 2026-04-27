@@ -1,0 +1,30 @@
+{
+  "name": "Full Kannada Cross-Domain Session",
+  "description": "Voice session: food + grocery + dineout in Kannada",
+  "user_id": "U0042",
+  "language": "kn",
+  "input_text": "Meghana's biryani order maaDu, Harpic nu add maaDu, Saturday ge table book maaDu",
+  "normalized": "Meghana's biryani order do, Harpic also add do, Saturday for table book do",
+  "intent": "multi_domain",
+  "entities": {
+    "restaurants": ["meghana's"],
+    "products": ["harpic"],
+    "date": "saturday"
+  },
+  "agent_actions": [
+    {"agent": "food", "tool": "search_restaurants", "params": {"query": "Meghana Foods"}},
+    {"agent": "food", "tool": "update_food_cart", "params": {"restaurant_id": "R0001", "items": [{"name": "Chicken Biryani", "price": 350}]}},
+    {"agent": "instamart", "tool": "search_products", "params": {"query": "Harpic"}},
+    {"agent": "instamart", "tool": "update_cart", "params": {"product_id": "P0002", "quantity": 1}},
+    {"agent": "dineout", "tool": "search_restaurants_dineout", "params": {"query": "South Indian"}},
+    {"agent": "dineout", "tool": "get_available_slots", "params": {"restaurant_id": "V0004", "date": "Saturday", "party_size": 2}}
+  ],
+  "confirmation_prompt": {
+    "kn": "Meghana's biryani Rs 350, Instamart inda Harpic Rs 189, Saturday 8 PM ge table. Total Rs 539. Confirm maaDla?"
+  },
+  "fallback_scenario": {
+    "trigger": "Meghana's closed",
+    "action": "suggest Nandhana Palace (affinity 0.81)",
+    "prompt_kn": "Meghana's close aagide. Nandhana Palace inda similar biryani ide. Order maaDla?"
+  }
+}

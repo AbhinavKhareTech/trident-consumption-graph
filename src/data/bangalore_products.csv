@@ -1,0 +1,501 @@
+product_id,name,category,brand,price,unit_size
+P0000,Bakery Item 0,Bakery,P&G,329.0,1pc
+P0001,Vegetables Item 1,Vegetables,Marico,45.0,250ml
+P0002,Vegetables Item 2,Vegetables,HUL,218.0,1kg
+P0003,Instant Food Item 3,Instant Food,Amul,495.0,500ml
+P0004,Staples Item 4,Staples,Marico,182.0,500ml
+P0005,Vegetables Item 5,Vegetables,Nestle,102.0,500ml
+P0006,Bakery Item 6,Bakery,P&G,29.0,250ml
+P0007,Maaza 1.2L,Beverages,Marico,272.0,1kg
+P0008,Nandini Curd 400g,Dairy,ITC,135.0,1kg
+P0009,Colgate 150g,Personal Care,Amul,386.0,1kg
+P0010,Bakery Item 10,Bakery,Dabur,187.0,500g
+P0011,Mother Dairy Paneer 200g,Dairy,P&G,302.0,500ml
+P0012,Baby Care Item 12,Baby Care,Amul,356.0,500ml
+P0013,Bakery Item 13,Bakery,HUL,288.0,1kg
+P0014,Spices Item 14,Spices,Marico,278.0,500g
+P0015,Staples Item 15,Staples,Amul,59.0,1kg
+P0016,Bakery Item 16,Bakery,P&G,25.0,1pc
+P0017,Maaza 1.2L,Beverages,Britannia,460.0,1kg
+P0018,Oil Item 18,Oil,HUL,180.0,500g
+P0019,Baby Care Item 19,Baby Care,Britannia,44.0,500g
+P0020,Bakery Item 20,Bakery,HUL,391.0,500ml
+P0021,Hide & Seek 120g,Snacks,Britannia,357.0,1L
+P0022,Bakery Item 22,Bakery,ITC,178.0,500ml
+P0023,Amul Butter 100g,Dairy,HUL,370.0,1L
+P0024,Oil Item 24,Oil,Marico,330.0,500g
+P0025,Sauces Item 25,Sauces,Britannia,123.0,500g
+P0026,Vegetables Item 26,Vegetables,Nestle,371.0,250ml
+P0027,Amul Lassi 200ml,Dairy,HUL,368.0,1L
+P0028,Spices Item 28,Spices,Amul,103.0,500ml
+P0029,Baby Care Item 29,Baby Care,P&G,325.0,200g
+P0030,Baby Care Item 30,Baby Care,Marico,83.0,200g
+P0031,Surf Excel 1kg,Cleaning,Britannia,491.0,500g
+P0032,Instant Food Item 32,Instant Food,ITC,414.0,500ml
+P0033,Staples Item 33,Staples,Amul,144.0,1kg
+P0034,Sauces Item 34,Sauces,ITC,185.0,200g
+P0035,Sauces Item 35,Sauces,Amul,38.0,1pc
+P0036,Sauces Item 36,Sauces,Dabur,485.0,1L
+P0037,Staples Item 37,Staples,Dabur,185.0,1L
+P0038,Bingo Tedhe Medhe,Snacks,Marico,398.0,1kg
+P0039,Mother Dairy Paneer 200g,Dairy,Marico,51.0,100g
+P0040,Gillette Guard,Personal Care,Amul,170.0,200g
+P0041,Kurkure 90g,Snacks,Britannia,98.0,1L
+P0042,Amul Toned Milk 1L,Dairy,ITC,280.0,200g
+P0043,Fruits Item 43,Fruits,Marico,357.0,1L
+P0044,Instant Food Item 44,Instant Food,HUL,310.0,1L
+P0045,Britannia Cheese Slice,Dairy,Amul,64.0,1kg
+P0046,Colin Glass Cleaner,Cleaning,Dabur,353.0,250ml
+P0047,Instant Food Item 47,Instant Food,Nestle,159.0,200g
+P0048,Bisleri 1L,Beverages,Dabur,292.0,1pc
+P0049,Amul Toned Milk 1L,Dairy,Amul,190.0,1L
+P0050,Haldiram Bhujia 200g,Snacks,Nestle,415.0,1pc
+P0051,Vim Bar 300g,Cleaning,ITC,27.0,500g
+P0052,Instant Food Item 52,Instant Food,Nestle,489.0,1pc
+P0053,Spices Item 53,Spices,ITC,165.0,1L
+P0054,Staples Item 54,Staples,Marico,449.0,250ml
+P0055,Too Yumm 80g,Snacks,Dabur,105.0,1L
+P0056,Fruits Item 56,Fruits,HUL,231.0,250ml
+P0057,Staples Item 57,Staples,Marico,143.0,250ml
+P0058,Bakery Item 58,Bakery,Amul,88.0,200g
+P0059,Parle G 250g,Snacks,Britannia,407.0,1L
+P0060,Oil Item 60,Oil,P&G,283.0,1L
+P0061,Spices Item 61,Spices,Dabur,483.0,1pc
+P0062,Bakery Item 62,Bakery,P&G,246.0,200g
+P0063,Vegetables Item 63,Vegetables,Amul,259.0,500g
+P0064,Lays Classic 52g,Snacks,Marico,99.0,500g
+P0065,Vim Bar 300g,Cleaning,P&G,76.0,1L
+P0066,Haldiram Bhujia 200g,Snacks,Dabur,113.0,500g
+P0067,Spices Item 67,Spices,Nestle,170.0,200g
+P0068,Dark Fantasy 75g,Snacks,Dabur,285.0,500ml
+P0069,Spices Item 69,Spices,Nestle,267.0,100g
+P0070,Oil Item 70,Oil,Dabur,70.0,500g
+P0071,Nandini Curd 400g,Dairy,ITC,464.0,200g
+P0072,Oil Item 72,Oil,Nestle,436.0,500ml
+P0073,Baby Care Item 73,Baby Care,Dabur,143.0,1pc
+P0074,Bakery Item 74,Bakery,Marico,33.0,250ml
+P0075,Vegetables Item 75,Vegetables,HUL,315.0,1L
+P0076,Sprite 750ml,Beverages,Dabur,446.0,500ml
+P0077,Sauces Item 77,Sauces,P&G,39.0,1pc
+P0078,Baby Care Item 78,Baby Care,Nestle,450.0,100g
+P0079,Fruits Item 79,Fruits,Nestle,166.0,1pc
+P0080,Spices Item 80,Spices,ITC,487.0,1kg
+P0081,Mother Dairy Paneer 200g,Dairy,Nestle,487.0,1pc
+P0082,Oil Item 82,Oil,Britannia,146.0,1L
+P0083,Bakery Item 83,Bakery,ITC,106.0,1kg
+P0084,Baby Care Item 84,Baby Care,Dabur,374.0,500ml
+P0085,Spices Item 85,Spices,Amul,265.0,500g
+P0086,Bingo Tedhe Medhe,Snacks,Nestle,359.0,1L
+P0087,Britannia Cheese Slice,Dairy,Amul,99.0,1kg
+P0088,Spices Item 88,Spices,Amul,136.0,1pc
+P0089,Thumps Up 750ml,Beverages,Britannia,357.0,250ml
+P0090,Fruits Item 90,Fruits,Marico,260.0,200g
+P0091,Instant Food Item 91,Instant Food,Amul,132.0,1pc
+P0092,Bakery Item 92,Bakery,Marico,101.0,1pc
+P0093,Bakery Item 93,Bakery,Britannia,182.0,250ml
+P0094,Sauces Item 94,Sauces,ITC,153.0,1L
+P0095,Paper Boat Aamras,Beverages,HUL,429.0,1kg
+P0096,Spices Item 96,Spices,P&G,329.0,1kg
+P0097,Whisper Ultra,Personal Care,Dabur,264.0,100g
+P0098,Staples Item 98,Staples,HUL,329.0,100g
+P0099,Lizol 500ml,Cleaning,Nestle,310.0,250ml
+P0100,Sauces Item 100,Sauces,Nestle,221.0,1L
+P0101,Spices Item 101,Spices,Britannia,238.0,1kg
+P0102,Staples Item 102,Staples,Nestle,343.0,1L
+P0103,Bakery Item 103,Bakery,ITC,19.0,500ml
+P0104,Frozen Item 104,Frozen,Nestle,160.0,200g
+P0105,Staples Item 105,Staples,ITC,178.0,250ml
+P0106,Instant Food Item 106,Instant Food,Britannia,433.0,250ml
+P0107,Instant Food Item 107,Instant Food,Nestle,106.0,1kg
+P0108,Baby Care Item 108,Baby Care,Amul,406.0,1L
+P0109,Instant Food Item 109,Instant Food,Britannia,345.0,100g
+P0110,Instant Food Item 110,Instant Food,Marico,499.0,250ml
+P0111,Baby Care Item 111,Baby Care,Dabur,211.0,100g
+P0112,Bakery Item 112,Bakery,P&G,181.0,1kg
+P0113,Instant Food Item 113,Instant Food,Marico,455.0,500ml
+P0114,Frozen Item 114,Frozen,Nestle,425.0,500g
+P0115,Dettol Handwash,Personal Care,ITC,243.0,250ml
+P0116,Sauces Item 116,Sauces,HUL,474.0,500ml
+P0117,Instant Food Item 117,Instant Food,ITC,123.0,1kg
+P0118,Sauces Item 118,Sauces,Nestle,219.0,500ml
+P0119,Fruits Item 119,Fruits,Nestle,299.0,1pc
+P0120,Spices Item 120,Spices,ITC,243.0,200g
+P0121,Staples Item 121,Staples,P&G,258.0,1L
+P0122,Frozen Item 122,Frozen,Nestle,215.0,500g
+P0123,Mother Dairy Paneer 200g,Dairy,P&G,181.0,1pc
+P0124,Epigamia Greek Yogurt,Dairy,Britannia,433.0,500g
+P0125,Oil Item 125,Oil,ITC,251.0,500g
+P0126,Fruits Item 126,Fruits,Amul,17.0,250ml
+P0127,Lizol 500ml,Cleaning,HUL,294.0,500g
+P0128,Staples Item 128,Staples,ITC,78.0,1L
+P0129,Instant Food Item 129,Instant Food,Dabur,211.0,1pc
+P0130,Vegetables Item 130,Vegetables,Amul,33.0,1kg
+P0131,Sauces Item 131,Sauces,Britannia,476.0,500ml
+P0132,Oil Item 132,Oil,P&G,24.0,100g
+P0133,Instant Food Item 133,Instant Food,P&G,125.0,500ml
+P0134,Head & Shoulders 180ml,Personal Care,HUL,65.0,250ml
+P0135,Amul Butter 100g,Dairy,ITC,415.0,250ml
+P0136,Dettol Handwash,Personal Care,Marico,368.0,500ml
+P0137,Vegetables Item 137,Vegetables,HUL,181.0,1pc
+P0138,Fruits Item 138,Fruits,P&G,95.0,1L
+P0139,Thumps Up 750ml,Beverages,P&G,124.0,500g
+P0140,Harpic 500ml,Cleaning,Amul,301.0,500g
+P0141,Hide & Seek 120g,Snacks,Britannia,360.0,100g
+P0142,Vegetables Item 142,Vegetables,Nestle,389.0,100g
+P0143,Bakery Item 143,Bakery,Amul,336.0,100g
+P0144,Red Bull 250ml,Beverages,ITC,217.0,1L
+P0145,Kurkure 90g,Snacks,Nestle,245.0,500g
+P0146,Scotch Brite Pad,Cleaning,Amul,161.0,200g
+P0147,Instant Food Item 147,Instant Food,Nestle,317.0,500g
+P0148,Vegetables Item 148,Vegetables,ITC,263.0,200g
+P0149,Colgate 150g,Personal Care,ITC,396.0,1pc
+P0150,Surf Excel 1kg,Cleaning,P&G,392.0,1kg
+P0151,Fruits Item 151,Fruits,Dabur,158.0,100g
+P0152,Frozen Item 152,Frozen,Marico,457.0,1pc
+P0153,Fruits Item 153,Fruits,P&G,16.0,200g
+P0154,Baby Care Item 154,Baby Care,ITC,420.0,1pc
+P0155,Nandini Curd 400g,Dairy,ITC,393.0,200g
+P0156,Sauces Item 156,Sauces,ITC,454.0,1kg
+P0157,Staples Item 157,Staples,Nestle,143.0,100g
+P0158,Bingo Tedhe Medhe,Snacks,HUL,439.0,250ml
+P0159,Fruits Item 159,Fruits,Britannia,222.0,200g
+P0160,Lays Classic 52g,Snacks,Amul,20.0,500g
+P0161,Instant Food Item 161,Instant Food,HUL,174.0,1pc
+P0162,Bakery Item 162,Bakery,Nestle,441.0,200g
+P0163,Fruits Item 163,Fruits,Britannia,104.0,1L
+P0164,Vegetables Item 164,Vegetables,Marico,147.0,1L
+P0165,Sauces Item 165,Sauces,Marico,403.0,500g
+P0166,Bingo Tedhe Medhe,Snacks,HUL,353.0,100g
+P0167,Spices Item 167,Spices,HUL,65.0,1pc
+P0168,Oil Item 168,Oil,Marico,103.0,1L
+P0169,Oil Item 169,Oil,Britannia,312.0,500g
+P0170,Staples Item 170,Staples,Marico,70.0,1L
+P0171,Staples Item 171,Staples,Amul,46.0,500ml
+P0172,Frooti 1L,Beverages,P&G,489.0,500ml
+P0173,Frozen Item 173,Frozen,ITC,225.0,1kg
+P0174,Staples Item 174,Staples,Britannia,337.0,1L
+P0175,Amul Toned Milk 1L,Dairy,Amul,21.0,500g
+P0176,Frozen Item 176,Frozen,Marico,428.0,500g
+P0177,Kurkure 90g,Snacks,Marico,171.0,500ml
+P0178,Dettol Handwash,Personal Care,Amul,261.0,1L
+P0179,Vegetables Item 179,Vegetables,P&G,53.0,1pc
+P0180,Oil Item 180,Oil,Marico,58.0,1pc
+P0181,Staples Item 181,Staples,Britannia,73.0,1pc
+P0182,Sauces Item 182,Sauces,Amul,65.0,1L
+P0183,Appy 250ml,Beverages,Amul,416.0,250ml
+P0184,Baby Care Item 184,Baby Care,P&G,332.0,1pc
+P0185,Fruits Item 185,Fruits,Britannia,415.0,1kg
+P0186,Spices Item 186,Spices,Marico,176.0,1pc
+P0187,Sauces Item 187,Sauces,Britannia,362.0,200g
+P0188,Dark Fantasy 75g,Snacks,P&G,16.0,500ml
+P0189,Spices Item 189,Spices,Nestle,281.0,500ml
+P0190,Sauces Item 190,Sauces,ITC,37.0,500g
+P0191,Staples Item 191,Staples,HUL,414.0,1L
+P0192,Lays Classic 52g,Snacks,Nestle,311.0,1kg
+P0193,Kurkure 90g,Snacks,Dabur,120.0,1kg
+P0194,Sauces Item 194,Sauces,Britannia,67.0,1L
+P0195,Paper Boat Aamras,Beverages,ITC,389.0,1pc
+P0196,Staples Item 196,Staples,HUL,482.0,100g
+P0197,Frozen Item 197,Frozen,Amul,283.0,1L
+P0198,Spices Item 198,Spices,Marico,463.0,500g
+P0199,Sauces Item 199,Sauces,HUL,369.0,500g
+P0200,Lays Classic 52g,Snacks,Dabur,334.0,500ml
+P0201,Frozen Item 201,Frozen,Dabur,218.0,1kg
+P0202,Whisper Ultra,Personal Care,Dabur,482.0,250ml
+P0203,Staples Item 203,Staples,HUL,82.0,250ml
+P0204,Spices Item 204,Spices,Britannia,360.0,1kg
+P0205,Vim Bar 300g,Cleaning,P&G,318.0,250ml
+P0206,Instant Food Item 206,Instant Food,Britannia,462.0,500g
+P0207,Sauces Item 207,Sauces,HUL,259.0,500ml
+P0208,Sauces Item 208,Sauces,ITC,384.0,1pc
+P0209,Bakery Item 209,Bakery,Dabur,342.0,250ml
+P0210,Baby Care Item 210,Baby Care,Dabur,407.0,200g
+P0211,Pepsi 2L,Beverages,Dabur,85.0,100g
+P0212,Vim Bar 300g,Cleaning,Nestle,379.0,500g
+P0213,Dettol Handwash,Personal Care,Nestle,86.0,100g
+P0214,Sauces Item 214,Sauces,Nestle,114.0,100g
+P0215,Fruits Item 215,Fruits,Marico,65.0,1kg
+P0216,Sauces Item 216,Sauces,Dabur,130.0,250ml
+P0217,Sauces Item 217,Sauces,Amul,464.0,1L
+P0218,Vegetables Item 218,Vegetables,Britannia,483.0,100g
+P0219,Thumps Up 750ml,Beverages,Nestle,113.0,1pc
+P0220,Spices Item 220,Spices,P&G,457.0,500ml
+P0221,Oil Item 221,Oil,P&G,391.0,1kg
+P0222,Gillette Guard,Personal Care,Marico,101.0,200g
+P0223,Amul Lassi 200ml,Dairy,HUL,372.0,200g
+P0224,Vegetables Item 224,Vegetables,Amul,223.0,250ml
+P0225,Nandini Curd 400g,Dairy,HUL,298.0,250ml
+P0226,Sprite 750ml,Beverages,Britannia,241.0,500g
+P0227,Maaza 1.2L,Beverages,HUL,465.0,100g
+P0228,Oil Item 228,Oil,Nestle,253.0,500ml
+P0229,Hide & Seek 120g,Snacks,Britannia,270.0,500g
+P0230,Frozen Item 230,Frozen,ITC,396.0,500g
+P0231,Vegetables Item 231,Vegetables,Dabur,60.0,1kg
+P0232,Baby Care Item 232,Baby Care,P&G,337.0,500ml
+P0233,Fruits Item 233,Fruits,Nestle,121.0,1pc
+P0234,Frozen Item 234,Frozen,Amul,71.0,500ml
+P0235,Staples Item 235,Staples,P&G,454.0,1kg
+P0236,Sprite 750ml,Beverages,Britannia,200.0,200g
+P0237,Vegetables Item 237,Vegetables,Nestle,277.0,250ml
+P0238,Bisleri 1L,Beverages,Britannia,264.0,1pc
+P0239,Staples Item 239,Staples,Amul,159.0,1kg
+P0240,Fruits Item 240,Fruits,ITC,475.0,500g
+P0241,Oil Item 241,Oil,Amul,319.0,1kg
+P0242,Instant Food Item 242,Instant Food,P&G,435.0,1L
+P0243,Spices Item 243,Spices,ITC,115.0,1L
+P0244,Instant Food Item 244,Instant Food,ITC,377.0,500g
+P0245,Paper Boat Aamras,Beverages,Marico,363.0,100g
+P0246,Bingo Tedhe Medhe,Snacks,ITC,41.0,250ml
+P0247,Frozen Item 247,Frozen,ITC,294.0,1kg
+P0248,Baby Care Item 248,Baby Care,Nestle,213.0,1pc
+P0249,Instant Food Item 249,Instant Food,Dabur,225.0,100g
+P0250,Vegetables Item 250,Vegetables,ITC,274.0,200g
+P0251,Oil Item 251,Oil,Amul,355.0,200g
+P0252,Fruits Item 252,Fruits,ITC,156.0,250ml
+P0253,Bakery Item 253,Bakery,ITC,152.0,1pc
+P0254,Vegetables Item 254,Vegetables,Dabur,414.0,100g
+P0255,Staples Item 255,Staples,HUL,274.0,500g
+P0256,Sauces Item 256,Sauces,Dabur,401.0,250ml
+P0257,Instant Food Item 257,Instant Food,HUL,160.0,500ml
+P0258,Bisleri 1L,Beverages,HUL,75.0,100g
+P0259,Bakery Item 259,Bakery,Dabur,276.0,200g
+P0260,Head & Shoulders 180ml,Personal Care,P&G,378.0,500ml
+P0261,Vim Bar 300g,Cleaning,Dabur,454.0,500g
+P0262,Britannia Cheese Slice,Dairy,HUL,122.0,250ml
+P0263,Colin Glass Cleaner,Cleaning,ITC,103.0,100g
+P0264,Spices Item 264,Spices,Marico,328.0,200g
+P0265,Whisper Ultra,Personal Care,ITC,137.0,1kg
+P0266,Sauces Item 266,Sauces,Marico,476.0,500ml
+P0267,Nandini Curd 400g,Dairy,P&G,64.0,200g
+P0268,Baby Care Item 268,Baby Care,P&G,169.0,1pc
+P0269,Fruits Item 269,Fruits,Nestle,351.0,500g
+P0270,Bakery Item 270,Bakery,Britannia,407.0,1L
+P0271,Epigamia Greek Yogurt,Dairy,Amul,167.0,1kg
+P0272,Sauces Item 272,Sauces,Dabur,149.0,500ml
+P0273,Amul Toned Milk 1L,Dairy,Britannia,441.0,1pc
+P0274,Staples Item 274,Staples,Britannia,391.0,1pc
+P0275,Frozen Item 275,Frozen,ITC,100.0,200g
+P0276,Spices Item 276,Spices,Nestle,431.0,500g
+P0277,Baby Care Item 277,Baby Care,P&G,143.0,200g
+P0278,Sauces Item 278,Sauces,ITC,448.0,100g
+P0279,Spices Item 279,Spices,Dabur,388.0,1kg
+P0280,Baby Care Item 280,Baby Care,Amul,283.0,1pc
+P0281,Instant Food Item 281,Instant Food,HUL,192.0,1kg
+P0282,Baby Care Item 282,Baby Care,Nestle,80.0,200g
+P0283,Vegetables Item 283,Vegetables,Britannia,259.0,1kg
+P0284,Spices Item 284,Spices,HUL,382.0,500g
+P0285,Staples Item 285,Staples,HUL,102.0,500g
+P0286,Sauces Item 286,Sauces,Marico,471.0,100g
+P0287,Harpic 500ml,Cleaning,Marico,127.0,250ml
+P0288,Fruits Item 288,Fruits,P&G,36.0,1kg
+P0289,Frozen Item 289,Frozen,Britannia,203.0,1pc
+P0290,Baby Care Item 290,Baby Care,Amul,34.0,500ml
+P0291,Parle G 250g,Snacks,Nestle,420.0,250ml
+P0292,Bakery Item 292,Bakery,HUL,198.0,1L
+P0293,Fruits Item 293,Fruits,ITC,266.0,1L
+P0294,Baby Care Item 294,Baby Care,P&G,265.0,500ml
+P0295,Spices Item 295,Spices,Britannia,251.0,1pc
+P0296,Baby Care Item 296,Baby Care,Amul,258.0,500g
+P0297,Staples Item 297,Staples,HUL,127.0,250ml
+P0298,Colin Glass Cleaner,Cleaning,HUL,106.0,500ml
+P0299,Bakery Item 299,Bakery,ITC,336.0,1L
+P0300,Oil Item 300,Oil,Britannia,364.0,1pc
+P0301,Instant Food Item 301,Instant Food,Marico,247.0,500g
+P0302,Instant Food Item 302,Instant Food,Dabur,26.0,100g
+P0303,Amul Butter 100g,Dairy,HUL,80.0,100g
+P0304,Baby Care Item 304,Baby Care,HUL,42.0,250ml
+P0305,Baby Care Item 305,Baby Care,HUL,266.0,1L
+P0306,Bakery Item 306,Bakery,Amul,441.0,250ml
+P0307,Parle G 250g,Snacks,P&G,233.0,1pc
+P0308,Spices Item 308,Spices,Marico,98.0,1L
+P0309,Bakery Item 309,Bakery,HUL,400.0,500g
+P0310,Bakery Item 310,Bakery,Nestle,96.0,500ml
+P0311,Baby Care Item 311,Baby Care,Marico,304.0,200g
+P0312,Colin Glass Cleaner,Cleaning,Dabur,202.0,200g
+P0313,Appy 250ml,Beverages,P&G,269.0,1L
+P0314,Spices Item 314,Spices,HUL,309.0,500g
+P0315,Staples Item 315,Staples,Amul,441.0,200g
+P0316,Dark Fantasy 75g,Snacks,Marico,335.0,100g
+P0317,Baby Care Item 317,Baby Care,Dabur,268.0,500ml
+P0318,Spices Item 318,Spices,Amul,353.0,1L
+P0319,Colin Glass Cleaner,Cleaning,Marico,398.0,1L
+P0320,Fruits Item 320,Fruits,ITC,221.0,250ml
+P0321,Staples Item 321,Staples,P&G,456.0,200g
+P0322,Dove Soap 100g,Personal Care,Dabur,140.0,100g
+P0323,Sauces Item 323,Sauces,Amul,295.0,200g
+P0324,Frozen Item 324,Frozen,Amul,197.0,1kg
+P0325,Sauces Item 325,Sauces,Britannia,213.0,200g
+P0326,Mother Dairy Paneer 200g,Dairy,Dabur,331.0,250ml
+P0327,Gillette Guard,Personal Care,Dabur,289.0,250ml
+P0328,Instant Food Item 328,Instant Food,Dabur,381.0,1L
+P0329,Frozen Item 329,Frozen,Marico,102.0,1pc
+P0330,Head & Shoulders 180ml,Personal Care,Nestle,295.0,1L
+P0331,Sauces Item 331,Sauces,HUL,430.0,200g
+P0332,Sauces Item 332,Sauces,P&G,232.0,500g
+P0333,Hide & Seek 120g,Snacks,P&G,262.0,500ml
+P0334,Oil Item 334,Oil,Amul,93.0,100g
+P0335,Oil Item 335,Oil,ITC,414.0,1pc
+P0336,Baby Care Item 336,Baby Care,Dabur,58.0,250ml
+P0337,Lizol 500ml,Cleaning,Britannia,54.0,100g
+P0338,Sauces Item 338,Sauces,Dabur,466.0,1L
+P0339,Bakery Item 339,Bakery,Nestle,360.0,100g
+P0340,Oil Item 340,Oil,HUL,326.0,1pc
+P0341,Pepsi 2L,Beverages,P&G,428.0,250ml
+P0342,Scotch Brite Pad,Cleaning,Amul,395.0,1kg
+P0343,Bakery Item 343,Bakery,HUL,342.0,500ml
+P0344,Lizol 500ml,Cleaning,Amul,488.0,200g
+P0345,Colgate 150g,Personal Care,Dabur,186.0,1L
+P0346,Vegetables Item 346,Vegetables,P&G,266.0,200g
+P0347,Baby Care Item 347,Baby Care,ITC,282.0,500ml
+P0348,Fruits Item 348,Fruits,Nestle,125.0,1kg
+P0349,Staples Item 349,Staples,Dabur,294.0,250ml
+P0350,Amul Toned Milk 1L,Dairy,Dabur,261.0,200g
+P0351,Frozen Item 351,Frozen,Nestle,180.0,200g
+P0352,Oil Item 352,Oil,Nestle,440.0,250ml
+P0353,Sauces Item 353,Sauces,Marico,484.0,1pc
+P0354,Oil Item 354,Oil,P&G,382.0,1pc
+P0355,Instant Food Item 355,Instant Food,Marico,450.0,100g
+P0356,Staples Item 356,Staples,ITC,140.0,1L
+P0357,Instant Food Item 357,Instant Food,P&G,343.0,1kg
+P0358,Oil Item 358,Oil,Britannia,215.0,500ml
+P0359,Frozen Item 359,Frozen,Amul,355.0,250ml
+P0360,Surf Excel 1kg,Cleaning,Nestle,60.0,500ml
+P0361,Kurkure 90g,Snacks,HUL,246.0,500ml
+P0362,Domex 500ml,Cleaning,Nestle,104.0,1kg
+P0363,Staples Item 363,Staples,P&G,129.0,1kg
+P0364,Spices Item 364,Spices,Nestle,115.0,1kg
+P0365,Spices Item 365,Spices,P&G,421.0,500ml
+P0366,Amul Butter 100g,Dairy,ITC,73.0,200g
+P0367,Instant Food Item 367,Instant Food,Marico,313.0,100g
+P0368,Spices Item 368,Spices,Marico,195.0,500ml
+P0369,Staples Item 369,Staples,Nestle,253.0,250ml
+P0370,Vegetables Item 370,Vegetables,P&G,379.0,500g
+P0371,Pepsi 2L,Beverages,Dabur,247.0,100g
+P0372,Frozen Item 372,Frozen,Britannia,206.0,500g
+P0373,Staples Item 373,Staples,ITC,354.0,1pc
+P0374,Fruits Item 374,Fruits,Amul,21.0,1kg
+P0375,Vegetables Item 375,Vegetables,ITC,173.0,250ml
+P0376,Epigamia Greek Yogurt,Dairy,Nestle,130.0,1pc
+P0377,Bakery Item 377,Bakery,Britannia,192.0,1pc
+P0378,Vegetables Item 378,Vegetables,P&G,218.0,500ml
+P0379,Fruits Item 379,Fruits,Dabur,151.0,500g
+P0380,Bakery Item 380,Bakery,HUL,490.0,1kg
+P0381,Spices Item 381,Spices,ITC,365.0,1kg
+P0382,Frozen Item 382,Frozen,Dabur,430.0,1kg
+P0383,Epigamia Greek Yogurt,Dairy,HUL,244.0,100g
+P0384,Amul Lassi 200ml,Dairy,Dabur,257.0,500ml
+P0385,Oil Item 385,Oil,Marico,161.0,100g
+P0386,Vegetables Item 386,Vegetables,ITC,350.0,100g
+P0387,Vim Bar 300g,Cleaning,Nestle,246.0,200g
+P0388,Staples Item 388,Staples,Britannia,141.0,500ml
+P0389,Frozen Item 389,Frozen,Nestle,182.0,1L
+P0390,Bingo Tedhe Medhe,Snacks,Britannia,436.0,1kg
+P0391,Bakery Item 391,Bakery,HUL,490.0,250ml
+P0392,Fruits Item 392,Fruits,Britannia,341.0,1pc
+P0393,Oil Item 393,Oil,Marico,446.0,1L
+P0394,Bakery Item 394,Bakery,Nestle,240.0,500g
+P0395,Spices Item 395,Spices,HUL,326.0,500ml
+P0396,Vegetables Item 396,Vegetables,Dabur,427.0,200g
+P0397,Hide & Seek 120g,Snacks,HUL,182.0,500ml
+P0398,Fruits Item 398,Fruits,Nestle,360.0,1L
+P0399,Dove Soap 100g,Personal Care,Marico,394.0,500ml
+P0400,Sauces Item 400,Sauces,Marico,216.0,500g
+P0401,Spices Item 401,Spices,Amul,76.0,1kg
+P0402,Instant Food Item 402,Instant Food,Nestle,471.0,200g
+P0403,Colin Glass Cleaner,Cleaning,HUL,208.0,200g
+P0404,Dark Fantasy 75g,Snacks,Marico,281.0,100g
+P0405,Oil Item 405,Oil,Dabur,269.0,200g
+P0406,Bingo Tedhe Medhe,Snacks,Nestle,315.0,200g
+P0407,Instant Food Item 407,Instant Food,Dabur,165.0,1kg
+P0408,Sauces Item 408,Sauces,Nestle,230.0,500g
+P0409,Britannia Cheese Slice,Dairy,HUL,29.0,500ml
+P0410,Spices Item 410,Spices,Britannia,434.0,1pc
+P0411,Spices Item 411,Spices,Nestle,281.0,500g
+P0412,Sauces Item 412,Sauces,HUL,302.0,1pc
+P0413,Instant Food Item 413,Instant Food,Dabur,269.0,250ml
+P0414,Baby Care Item 414,Baby Care,Britannia,249.0,1kg
+P0415,Oil Item 415,Oil,ITC,229.0,500ml
+P0416,Vegetables Item 416,Vegetables,Nestle,91.0,100g
+P0417,Maaza 1.2L,Beverages,HUL,182.0,1pc
+P0418,Frozen Item 418,Frozen,Amul,349.0,1pc
+P0419,Oil Item 419,Oil,Marico,160.0,1L
+P0420,Oil Item 420,Oil,Nestle,305.0,100g
+P0421,Frozen Item 421,Frozen,Britannia,106.0,1L
+P0422,Vegetables Item 422,Vegetables,P&G,94.0,1L
+P0423,Spices Item 423,Spices,Dabur,122.0,200g
+P0424,Vegetables Item 424,Vegetables,P&G,266.0,250ml
+P0425,Gillette Guard,Personal Care,Nestle,215.0,200g
+P0426,Amul Lassi 200ml,Dairy,HUL,155.0,1pc
+P0427,Bakery Item 427,Bakery,Marico,147.0,1pc
+P0428,Lizol 500ml,Cleaning,Britannia,24.0,100g
+P0429,Frozen Item 429,Frozen,Amul,105.0,200g
+P0430,Dettol Handwash,Personal Care,Nestle,76.0,1pc
+P0431,Sauces Item 431,Sauces,Amul,128.0,500g
+P0432,Frooti 1L,Beverages,Marico,120.0,1L
+P0433,Whisper Ultra,Personal Care,Marico,499.0,1pc
+P0434,Sauces Item 434,Sauces,Amul,175.0,500g
+P0435,Paper Boat Aamras,Beverages,Nestle,391.0,200g
+P0436,Frozen Item 436,Frozen,Marico,103.0,250ml
+P0437,Spices Item 437,Spices,Dabur,417.0,200g
+P0438,Oil Item 438,Oil,P&G,202.0,1pc
+P0439,Domex 500ml,Cleaning,Amul,112.0,200g
+P0440,Frozen Item 440,Frozen,P&G,244.0,250ml
+P0441,Baby Care Item 441,Baby Care,Britannia,92.0,100g
+P0442,Sauces Item 442,Sauces,ITC,138.0,250ml
+P0443,Vim Bar 300g,Cleaning,Britannia,445.0,1kg
+P0444,Dark Fantasy 75g,Snacks,P&G,322.0,500ml
+P0445,Paper Boat Aamras,Beverages,HUL,400.0,200g
+P0446,Vegetables Item 446,Vegetables,P&G,19.0,100g
+P0447,Bakery Item 447,Bakery,Marico,349.0,500g
+P0448,Fruits Item 448,Fruits,ITC,136.0,1pc
+P0449,Kurkure 90g,Snacks,Britannia,466.0,100g
+P0450,Coca Cola 750ml,Beverages,Britannia,328.0,200g
+P0451,Britannia Cheese Slice,Dairy,Marico,128.0,500ml
+P0452,Oil Item 452,Oil,Marico,371.0,100g
+P0453,Sauces Item 453,Sauces,Dabur,189.0,500g
+P0454,Whisper Ultra,Personal Care,Amul,250.0,1pc
+P0455,Frozen Item 455,Frozen,Nestle,278.0,1pc
+P0456,Lizol 500ml,Cleaning,HUL,279.0,500ml
+P0457,Sauces Item 457,Sauces,Marico,149.0,500g
+P0458,Haldiram Bhujia 200g,Snacks,HUL,233.0,250ml
+P0459,Frozen Item 459,Frozen,Britannia,235.0,1L
+P0460,Sauces Item 460,Sauces,HUL,443.0,500ml
+P0461,Oil Item 461,Oil,P&G,171.0,200g
+P0462,Instant Food Item 462,Instant Food,Dabur,107.0,1pc
+P0463,Oil Item 463,Oil,HUL,312.0,500ml
+P0464,Vegetables Item 464,Vegetables,Britannia,69.0,200g
+P0465,Paper Boat Aamras,Beverages,HUL,102.0,100g
+P0466,Colin Glass Cleaner,Cleaning,ITC,250.0,200g
+P0467,Maaza 1.2L,Beverages,Dabur,334.0,250ml
+P0468,Bisleri 1L,Beverages,Britannia,122.0,200g
+P0469,Thumps Up 750ml,Beverages,P&G,333.0,200g
+P0470,Staples Item 470,Staples,Amul,190.0,1L
+P0471,Spices Item 471,Spices,Britannia,400.0,100g
+P0472,Spices Item 472,Spices,Nestle,272.0,200g
+P0473,Spices Item 473,Spices,Nestle,53.0,1kg
+P0474,Frozen Item 474,Frozen,ITC,64.0,1kg
+P0475,Frozen Item 475,Frozen,Dabur,107.0,1kg
+P0476,Bakery Item 476,Bakery,HUL,286.0,1L
+P0477,Sauces Item 477,Sauces,ITC,387.0,500ml
+P0478,Instant Food Item 478,Instant Food,Marico,356.0,1L
+P0479,Baby Care Item 479,Baby Care,ITC,96.0,500g
+P0480,Frozen Item 480,Frozen,Dabur,260.0,500g
+P0481,Frozen Item 481,Frozen,Marico,468.0,500ml
+P0482,Frozen Item 482,Frozen,Britannia,425.0,1L
+P0483,Oil Item 483,Oil,Dabur,416.0,500ml
+P0484,Bakery Item 484,Bakery,P&G,288.0,1kg
+P0485,Vegetables Item 485,Vegetables,Nestle,190.0,1pc
+P0486,Staples Item 486,Staples,Dabur,15.0,100g
+P0487,Nivea Body Lotion,Personal Care,Amul,266.0,250ml
+P0488,Bisleri 1L,Beverages,Nestle,492.0,1kg
+P0489,Spices Item 489,Spices,Britannia,26.0,250ml
+P0490,Baby Care Item 490,Baby Care,HUL,61.0,1pc
+P0491,Fruits Item 491,Fruits,HUL,82.0,500ml
+P0492,Baby Care Item 492,Baby Care,P&G,128.0,250ml
+P0493,Hide & Seek 120g,Snacks,Dabur,291.0,1kg
+P0494,Sauces Item 494,Sauces,ITC,366.0,1pc
+P0495,Epigamia Greek Yogurt,Dairy,Marico,415.0,200g
+P0496,Bakery Item 496,Bakery,Nestle,33.0,1L
+P0497,Kurkure 90g,Snacks,Amul,462.0,500ml
+P0498,Fruits Item 498,Fruits,Dabur,217.0,200g
+P0499,Spices Item 499,Spices,P&G,378.0,100g

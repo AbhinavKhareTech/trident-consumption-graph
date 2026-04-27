@@ -1,0 +1,20 @@
+{
+  "R0001": [
+    {"name": "Chicken Biryani", "price": 350, "id": "M001"},
+    {"name": "Mutton Biryani", "price": 450, "id": "M002"},
+    {"name": "Veg Biryani", "price": 250, "id": "M003"},
+    {"name": "Chicken 65", "price": 280, "id": "M004"},
+    {"name": "Raita", "price": 60, "id": "M005"}
+  ],
+  "R0002": [
+    {"name": "Andhra Meals", "price": 220, "id": "M010"},
+    {"name": "Chicken Biryani", "price": 320, "id": "M011"},
+    {"name": "Guntur Chicken", "price": 380, "id": "M012"}
+  ],
+  "R0004": [
+    {"name": "Masala Dosa", "price": 120, "id": "M020"},
+    {"name": "Idli Vada", "price": 90, "id": "M021"},
+    {"name": "Filter Coffee", "price": 50, "id": "M022"},
+    {"name": "Rava Idli", "price": 100, "id": "M023"}
+  ]
+}

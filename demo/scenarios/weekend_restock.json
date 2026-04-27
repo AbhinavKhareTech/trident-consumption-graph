@@ -1,0 +1,13 @@
+{
+  "name": "Weekend Restock + Dineout Booking",
+  "description": "Cross-domain: grocery restock + Saturday table booking",
+  "user_id": "U0042",
+  "trigger": "user_initiated",
+  "input_text": "Harpic add maaDu, Saturday ge table book maaDu",
+  "agent_actions": [
+    {"agent": "instamart", "tool": "search_products", "params": {"query": "Harpic"}},
+    {"agent": "instamart", "tool": "update_cart", "params": {"product_id": "P0002", "quantity": 1}},
+    {"agent": "dineout", "tool": "search_restaurants_dineout", "params": {"query": "South Indian"}},
+    {"agent": "dineout", "tool": "get_available_slots", "params": {"restaurant_id": "V0004", "date": "Saturday", "party_size": 2}}
+  ]
+}

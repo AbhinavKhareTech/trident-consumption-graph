@@ -1,0 +1,19 @@
+{
+  "name": "Thursday Biryani - Proactive Prediction",
+  "description": "Trident predicts user's Thursday evening biryani order from Meghana's",
+  "user_id": "U0042",
+  "trigger": "proactive",
+  "ensemble_scores": {
+    "meghanas_biryani": {"pyg": 0.91, "dgl": 0.88, "xgb": 0.85, "ensemble": 0.94},
+    "coke_pairing": {"pyg": 0.72, "dgl": 0.81, "xgb": 0.79, "ensemble": 0.87}
+  },
+  "agent_actions": [
+    {"agent": "food", "tool": "search_restaurants", "params": {"query": "Meghana Foods"}},
+    {"agent": "food", "tool": "get_restaurant_menu", "params": {"restaurant_id": "R0001"}},
+    {"agent": "food", "tool": "update_food_cart", "params": {"restaurant_id": "R0001", "items": [{"name": "Chicken Biryani", "price": 350}]}},
+    {"agent": "instamart", "tool": "search_products", "params": {"query": "Coke"}},
+    {"agent": "instamart", "tool": "update_cart", "params": {"product_id": "P0001", "quantity": 1}}
+  ],
+  "confirmation_prompt": {"kn": "Meghana's biryani Rs 350, Coke Rs 40. Total Rs 390. Confirm maaDla?"},
+  "expected_confirmation": "haan"
+}
