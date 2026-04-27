@@ -59,11 +59,10 @@ dev = [
 
 [tool.ruff]
 target-version = "py310"
-line-length = 120
+line-length = 140          # ← Change from 100 (or 120) to 140
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "UP", "B", "SIM"]
-ignore = ["F821", "N812", "SIM102", "SIM108"]
+select = ["E", "F", "I", "N", "UP", "B", "SIM"]
 
 [tool.mypy]
 python_version = "3.10"
