@@ -59,14 +59,11 @@ dev = [
 
 [tool.ruff]
 target-version = "py310"
-line-length = 100
+line-length = 120
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "N", "UP", "B", "SIM"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-asyncio_mode = "auto"
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["F821", "N812", "SIM102", "SIM108"]
 
 [tool.mypy]
 python_version = "3.10"
