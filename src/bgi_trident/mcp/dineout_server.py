@@ -12,7 +12,11 @@ class SwiggyDineoutMCP(MCPServer):
         self._client: httpx.AsyncClient | None = None
 
     async def connect(self) -> None:
-        self._client = httpx.AsyncClient(base_url=self.url, headers={"Authorization": f"Bearer {self.api_key}"}, timeout=30.0)
+        self._client = httpx.AsyncClient(
+            base_url=self.url,
+            headers={"Authorization": f"Bearer {self.api_key}"},
+            timeout=30.0,
+        )
 
     async def call_tool(self, tool_name: str, params: dict[str, Any]) -> MCPToolResult:
         if self._client is None:
