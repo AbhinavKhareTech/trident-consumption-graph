@@ -1,11 +1,12 @@
 """Tests for domain agents."""
 import pytest
+
+from bgi_trident.agents.dineout import DineoutAgent
 from bgi_trident.agents.food import FoodAgent
 from bgi_trident.agents.instamart import InstamartAgent
-from bgi_trident.agents.dineout import DineoutAgent
+from bgi_trident.mcp.mock.dineout_mock import MockDineoutMCP
 from bgi_trident.mcp.mock.food_mock import MockFoodMCP
 from bgi_trident.mcp.mock.instamart_mock import MockInstamartMCP
-from bgi_trident.mcp.mock.dineout_mock import MockDineoutMCP
 
 
 @pytest.mark.asyncio

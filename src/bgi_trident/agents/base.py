@@ -1,7 +1,9 @@
 """Base agent protocol for domain-specific MCP agents."""
 from __future__ import annotations
+
 from abc import ABC, abstractmethod
 from typing import Any
+
 from bgi_trident.mcp.protocol import MCPServer, MCPToolResult
 
 

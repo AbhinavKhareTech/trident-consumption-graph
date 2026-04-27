@@ -1,9 +1,10 @@
 """Tests for Trident orchestrator."""
 import pytest
-from bgi_trident.orchestrator.coordinator import TridentCoordinator, AgentTask, IntentType
+
+from bgi_trident.mcp.mock.dineout_mock import MockDineoutMCP
 from bgi_trident.mcp.mock.food_mock import MockFoodMCP
 from bgi_trident.mcp.mock.instamart_mock import MockInstamartMCP
-from bgi_trident.mcp.mock.dineout_mock import MockDineoutMCP
+from bgi_trident.orchestrator.coordinator import AgentTask, IntentType, TridentCoordinator
 
 
 @pytest.mark.asyncio

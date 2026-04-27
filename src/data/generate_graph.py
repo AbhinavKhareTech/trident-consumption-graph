@@ -9,7 +9,6 @@ co-occurrence patterns for OFTEN_PAIRED and FOLLOWED_BY_DINING edges.
 from __future__ import annotations
 
 import csv
-import os
 import random
 from datetime import datetime, timedelta
 from pathlib import Path

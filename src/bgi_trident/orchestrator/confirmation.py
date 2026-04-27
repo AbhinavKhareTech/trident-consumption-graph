@@ -4,6 +4,7 @@ No order fires without explicit user confirmation.
 This is a payments-grade guardrail, not a UX checkbox.
 """
 from __future__ import annotations
+
 import logging
 from dataclasses import dataclass
 from datetime import datetime

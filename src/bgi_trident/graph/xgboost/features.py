@@ -4,7 +4,9 @@ Re-exports XGBoostFeatureExtractor from model.py and adds
 convenience functions for feature pipeline construction.
 """
 from __future__ import annotations
+
 import pandas as pd
+
 from bgi_trident.graph.xgboost.model import XGBoostFeatureExtractor
 
 

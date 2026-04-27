@@ -1,8 +1,10 @@
 """Shared test fixtures for BGI Trident."""
-import pytest
-import pandas as pd
-import numpy as np
 from datetime import datetime, timedelta
+
+import numpy as np
+import pandas as pd
+import pytest
+
 
 @pytest.fixture
 def sample_users():

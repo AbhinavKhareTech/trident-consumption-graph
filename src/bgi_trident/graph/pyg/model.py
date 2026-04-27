@@ -18,7 +18,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.data import HeteroData
-from torch_geometric.nn import HeteroConv, SAGEConv, Linear
+from torch_geometric.nn import HeteroConv, Linear, SAGEConv
 
 
 class IDGNNEncoder(nn.Module):

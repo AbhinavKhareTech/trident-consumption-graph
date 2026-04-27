@@ -14,9 +14,6 @@ Key difference from Prong 1:
 
 from __future__ import annotations
 
-import math
-
-import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -74,7 +71,7 @@ class TemporalRGCNLayer(nn.Module):
 
     def forward(
         self,
-        g: "dgl.DGLHeteroGraph",
+        g: dgl.DGLHeteroGraph,
         x_dict: dict[str, torch.Tensor],
     ) -> dict[str, torch.Tensor]:
         """Forward pass with recency-weighted aggregation."""
@@ -166,7 +163,7 @@ class DGLProng(nn.Module):
         # Link prediction
         self.link_predictor = nn.Bilinear(embed_dim, embed_dim, 1)
 
-    def encode(self, g: "dgl.DGLHeteroGraph") -> dict[str, torch.Tensor]:
+    def encode(self, g: dgl.DGLHeteroGraph) -> dict[str, torch.Tensor]:
         """Get temporal-behavioral embeddings for all node types."""
         x_dict = {}
         for ntype in g.ntypes:
@@ -194,10 +191,10 @@ class DGLProng(nn.Module):
 
     def apply_recency_decay(
         self,
-        g: "dgl.DGLHeteroGraph",
+        g: dgl.DGLHeteroGraph,
         recency_days: dict[str, torch.Tensor],
         half_life_days: float = 14.0,
-    ) -> "dgl.DGLHeteroGraph":
+    ) -> dgl.DGLHeteroGraph:
         """Apply recency decay to edge weights before forward pass.
 
         This is the key differentiator from Prong 1: edges that are

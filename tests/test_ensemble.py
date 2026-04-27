@@ -1,5 +1,6 @@
 """Tests for ensemble meta-learner."""
 import numpy as np
+
 from bgi_trident.graph.ensemble.stacker import ProngScores, TridentEnsemble
 
 

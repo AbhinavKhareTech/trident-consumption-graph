@@ -262,5 +262,5 @@ class XGBoostProng:
         if not available_cols:
             available_cols = self.FEATURE_COLS[:len(importance)]
         return dict(sorted(
-            zip(available_cols, importance), key=lambda x: x[1], reverse=True
+            zip(available_cols, importance, strict=False), key=lambda x: x[1], reverse=True
         ))

@@ -1,5 +1,6 @@
 """ElevenLabs TTS + Deepgram ASR composite adapter."""
 from __future__ import annotations
+
 from bgi_trident.voice.protocol import SessionConfig, Transcript
 
 

@@ -13,7 +13,7 @@ from datetime import datetime
 
 import torch
 
-from bgi_trident.graph.schema import EdgeType, NodeType
+from bgi_trident.graph.schema import NodeType
 
 logger = logging.getLogger(__name__)
 

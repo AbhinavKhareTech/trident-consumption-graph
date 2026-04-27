@@ -5,10 +5,11 @@ slot full), the fallback engine uses graph affinity scores to suggest
 the next-best alternative.
 """
 from __future__ import annotations
+
 import logging
 from dataclasses import dataclass
 
-from bgi_trident.mcp.protocol import MCPServer, MCPToolResult
+from bgi_trident.mcp.protocol import MCPServer
 
 logger = logging.getLogger(__name__)
 

@@ -1,6 +1,7 @@
 """Tests for DGL Prong 2 model."""
-from bgi_trident.graph.dgl.model import compute_recency_decay
 import torch
+
+from bgi_trident.graph.dgl.model import compute_recency_decay
 
 
 def test_recency_decay():

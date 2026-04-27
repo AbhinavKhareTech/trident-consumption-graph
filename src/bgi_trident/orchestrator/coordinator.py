@@ -115,7 +115,7 @@ class TridentCoordinator:
                 *[self._execute_task(t) for t in search_tasks],
                 return_exceptions=True,
             )
-            for task, result in zip(search_tasks, search_results):
+            for task, result in zip(search_tasks, search_results, strict=False):
                 task_key = f"{task.agent_name}:{task.params.get('tool', 'unknown')}"
                 if isinstance(result, Exception):
                     failed.append(task_key)

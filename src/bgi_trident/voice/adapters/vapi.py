@@ -1,6 +1,7 @@
 """Vapi voice provider adapter. Default provider."""
 from __future__ import annotations
-from bgi_trident.voice.protocol import VoiceProvider, SessionConfig, Transcript
+
+from bgi_trident.voice.protocol import SessionConfig, Transcript
 
 
 class VapiAdapter:

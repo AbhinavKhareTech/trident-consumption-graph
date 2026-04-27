@@ -1,5 +1,6 @@
 """Tests for voice provider protocol."""
 import pytest
+
 from bgi_trident.voice.adapters.vapi import VapiAdapter
 from bgi_trident.voice.protocol import SessionConfig
 

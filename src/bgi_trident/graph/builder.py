@@ -9,15 +9,12 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
-from pathlib import Path
 
-import numpy as np
 import pandas as pd
 import torch
 
 from bgi_trident.graph.schema import (
     EDGE_REGISTRY,
-    EDGE_WEIGHTS,
     NODE_FEATURES,
     EdgeType,
     NodeType,
@@ -94,7 +91,7 @@ class ConsumptionGraphBuilder:
     def _build_node_features(self) -> None:
         """Construct feature tensors for each node type."""
         # User features
-        n_users = len(self._node_maps[NodeType.USER])
+        len(self._node_maps[NodeType.USER])
         user_feats = self._extract_user_features()
         self._node_features["user"] = user_feats
 
@@ -183,10 +180,10 @@ class ConsumptionGraphBuilder:
                 self._node_maps[NodeType.PRODUCT].get(p, -1)
                 for p in pair_counts["product_id"]
             ]
-            valid = [(s, d) for s, d in zip(src_ids, dst_ids) if s >= 0 and d >= 0]
+            valid = [(s, d) for s, d in zip(src_ids, dst_ids, strict=False) if s >= 0 and d >= 0]
             if valid:
                 edge_key = ("restaurant", "often_paired", "product")
-                src_t, dst_t = zip(*valid)
+                src_t, dst_t = zip(*valid, strict=False)
                 self._edge_indices[edge_key] = torch.tensor([src_t, dst_t], dtype=torch.long)
                 weights = pair_counts["co_occurrence_count"].values[: len(valid)]
                 self._edge_weights[edge_key] = torch.tensor(weights, dtype=torch.float32)
@@ -219,10 +216,10 @@ class ConsumptionGraphBuilder:
             dst_ids = [
                 self._node_maps[NodeType.VENUE].get(v, -1) for v in seq_counts["venue_id"]
             ]
-            valid = [(s, d) for s, d in zip(src_ids, dst_ids) if s >= 0 and d >= 0]
+            valid = [(s, d) for s, d in zip(src_ids, dst_ids, strict=False) if s >= 0 and d >= 0]
             if valid:
                 edge_key = ("restaurant", "followed_by_dining", "venue")
-                src_t, dst_t = zip(*valid)
+                src_t, dst_t = zip(*valid, strict=False)
                 self._edge_indices[edge_key] = torch.tensor([src_t, dst_t], dtype=torch.long)
 
     def _build_temporal_edges(self) -> None:
@@ -237,11 +234,11 @@ class ConsumptionGraphBuilder:
 
         src_ids = [self._node_maps[NodeType.USER].get(u, -1) for u in slot_counts["user_id"]]
         dst_ids = list(slot_counts["timeslot_id"])
-        valid = [(s, d) for s, d in zip(src_ids, dst_ids) if s >= 0]
+        valid = [(s, d) for s, d in zip(src_ids, dst_ids, strict=False) if s >= 0]
 
         if valid:
             edge_key = ("user", "prefers_at_time", "timeslot")
-            src_t, dst_t = zip(*valid)
+            src_t, dst_t = zip(*valid, strict=False)
             self._edge_indices[edge_key] = torch.tensor([src_t, dst_t], dtype=torch.long)
             weights = slot_counts["count"].values[: len(valid)]
             self._edge_weights[edge_key] = torch.tensor(weights, dtype=torch.float32)
@@ -279,10 +276,10 @@ class ConsumptionGraphBuilder:
 
         src_ids = [self._node_maps[src_type].get(v, -1) for v in agg[src_col]]
         dst_ids = [self._node_maps[dst_type].get(v, -1) for v in agg[dst_col]]
-        valid_mask = [(s >= 0 and d >= 0) for s, d in zip(src_ids, dst_ids)]
+        valid_mask = [(s >= 0 and d >= 0) for s, d in zip(src_ids, dst_ids, strict=False)]
 
-        valid_src = [s for s, m in zip(src_ids, valid_mask) if m]
-        valid_dst = [d for d, m in zip(dst_ids, valid_mask) if m]
+        valid_src = [s for s, m in zip(src_ids, valid_mask, strict=False) if m]
+        valid_dst = [d for d, m in zip(dst_ids, valid_mask, strict=False) if m]
 
         if valid_src:
             _, rel, _ = EDGE_REGISTRY[edge_type]
@@ -331,7 +328,7 @@ class ConsumptionGraphBuilder:
             features.append([hour / 23.0, dow / 6.0, is_weekend, is_holiday, is_meal_hour])
         return torch.tensor(features, dtype=torch.float32)
 
-    def to_pyg(self) -> "torch_geometric.data.HeteroData":
+    def to_pyg(self) -> torch_geometric.data.HeteroData:
         """Export to PyG HeteroData for Prong 1 (ID-GNN)."""
         from torch_geometric.data import HeteroData
 
@@ -348,7 +345,7 @@ class ConsumptionGraphBuilder:
 
         return data
 
-    def to_dgl(self) -> "dgl.DGLHeteroGraph":
+    def to_dgl(self) -> dgl.DGLHeteroGraph:
         """Export to DGL DGLHeteroGraph for Prong 2 (R-GCN with temporal decay)."""
         import dgl
 

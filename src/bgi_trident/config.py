@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import os
 
-
 # MCP Mode: "mock" for demo, "live" for production Swiggy APIs
 MCP_MODE: str = os.getenv("MCP_MODE", "mock")
 

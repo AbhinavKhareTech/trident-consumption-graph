@@ -1,5 +1,6 @@
 """Probability calibration for the ensemble meta-learner."""
 from __future__ import annotations
+
 import numpy as np
 from sklearn.calibration import calibration_curve
 

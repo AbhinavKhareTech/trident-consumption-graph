@@ -1,8 +1,10 @@
 """Mock Swiggy Dineout MCP server for demo and testing."""
 from __future__ import annotations
+
 import json
 from pathlib import Path
 from typing import Any
+
 from bgi_trident.mcp.protocol import MCPServer, MCPToolResult
 
 FIXTURES = Path(__file__).parent / "fixtures"

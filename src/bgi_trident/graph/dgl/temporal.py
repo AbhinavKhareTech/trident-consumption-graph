@@ -1,11 +1,13 @@
 """Temporal utilities for Prong 2: recency decay and time features."""
 from __future__ import annotations
+
 import torch
+
 from bgi_trident.graph.dgl.model import compute_recency_decay
 
 
-def apply_temporal_features(g: "dgl.DGLHeteroGraph", interaction_timestamps: dict[str, list[float]],
-                            reference_time: float, half_life_days: float = 14.0) -> "dgl.DGLHeteroGraph":
+def apply_temporal_features(g: dgl.DGLHeteroGraph, interaction_timestamps: dict[str, list[float]],
+                            reference_time: float, half_life_days: float = 14.0) -> dgl.DGLHeteroGraph:
     """Apply recency decay weights to all edge types with temporal data."""
     for etype in g.canonical_etypes:
         etype_key = f"{etype[0]}_{etype[1]}_{etype[2]}"

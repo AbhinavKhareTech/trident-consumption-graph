@@ -1,7 +1,8 @@
 """Tests for fallback engine."""
 import pytest
-from bgi_trident.orchestrator.fallback import FallbackEngine
+
 from bgi_trident.mcp.mock.food_mock import MockFoodMCP
+from bgi_trident.orchestrator.fallback import FallbackEngine
 
 
 @pytest.mark.asyncio

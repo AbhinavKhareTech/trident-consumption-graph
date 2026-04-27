@@ -1,5 +1,6 @@
 """Tests for PyG Prong 1 model."""
 import torch
+
 from bgi_trident.graph.pyg.model import PyGProng
 
 

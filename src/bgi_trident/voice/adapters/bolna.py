@@ -1,5 +1,6 @@
 """Bolna voice provider adapter."""
 from __future__ import annotations
+
 from bgi_trident.voice.protocol import SessionConfig, Transcript
 
 

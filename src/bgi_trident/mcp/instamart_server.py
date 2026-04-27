@@ -1,7 +1,10 @@
 """Live Swiggy SwiggyInstamartMCP client. Activated when MCP_MODE=live."""
 from __future__ import annotations
+
 from typing import Any
+
 import httpx
+
 from bgi_trident.mcp.protocol import MCPServer, MCPToolResult
 
 

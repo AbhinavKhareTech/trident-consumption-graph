@@ -1,6 +1,8 @@
 """Instamart domain agent wrapping Swiggy Instamart MCP server."""
 from __future__ import annotations
+
 from typing import Any
+
 from bgi_trident.agents.base import BaseAgent
 from bgi_trident.mcp.protocol import MCPToolResult
 

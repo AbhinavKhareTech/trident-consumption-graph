@@ -3,7 +3,9 @@
 Re-exports TridentEnsemble.ablation_study and adds reporting utilities.
 """
 from __future__ import annotations
+
 import numpy as np
+
 from bgi_trident.graph.ensemble.stacker import ProngScores, TridentEnsemble
 
 

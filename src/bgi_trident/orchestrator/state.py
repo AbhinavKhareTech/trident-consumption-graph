@@ -3,6 +3,7 @@
 Re-exports SessionState from coordinator.py and adds state persistence.
 """
 from __future__ import annotations
+
 from bgi_trident.orchestrator.coordinator import SessionState
 
 
