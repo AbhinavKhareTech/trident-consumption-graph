@@ -60,15 +60,15 @@ Trident differs in three ways: (1) three-model ensemble captures structural, tem
 
 ## Provenance -- This Didn't Start Here
 
-Trident is not a weekend project built for this application. It is a Swiggy-specific integration of three platform layers developed at [AhinsaAI](https://ahinsaai.com) over the past 18+ months:
+BGI Trident is not a weekend project built for this application. It is a Swiggy-specific integration of three platform layers developed at [AhinsaAI](https://ahinsaai.com) over the past 18+ months:
 
 **BGI (Behavioral Graph Intelligence)** is the core research layer. BGI models user behavior as heterogeneous graphs and applies GNN-based prediction to domains where understanding consumption patterns drives business outcomes. The initial BGI work was in fraud detection -- modeling transaction networks as graphs to identify anomalous patterns, synthetic identities, and collusion rings in payments systems. The graph schema, feature engineering approach, and ensemble methodology in this repo descend directly from that production fraud graph work. The insight that a three-prong ensemble (structural + temporal + tabular) outperforms any single GNN was first validated in the fraud detection context, where PyG caught topological fraud rings, DGL caught velocity-based pattern shifts, and XGBoost caught threshold-based anomalies that message-passing architectures smoothed over.
 
-**Kumo** is the graph engine layer that operationalizes BGI. It handles heterogeneous graph construction from raw interaction data, manages the training and serving pipeline for all three prongs, runs the ensemble meta-learner, and provides the online graph update mechanism that closes the predict-execute-learn loop. In this repo, everything under `src/bgi_trident/graph/` is the Kumo engine adapted for consumption prediction.
+**Graph Engine** is the graph engine layer that operationalizes BGI. It handles heterogeneous graph construction from raw interaction data, manages the training and serving pipeline for all three prongs, runs the ensemble meta-learner, and provides the online graph update mechanism that closes the predict-execute-learn loop. In this repo, everything under `src/bgi_trident/graph/` is the graph engine adapted for consumption prediction.
 
 **Swar** is the vernacular voice AI infrastructure that AhinsaAI built for BFSI clients. Swar handles ASR/TTS provider abstraction, vernacular NLU for Indian languages including code-mixed input (Kannada-English, Hindi-English, Tamil-English), intent classification, and entity extraction. It has served regulated enterprise clients in production. The voice and NLU modules in this repo (`src/bgi_trident/voice/`, `src/bgi_trident/nlu/`) are integration points with Swar, not standalone reimplementations.
 
-**Trident** is the orchestration layer that ties BGI/Kumo predictions to multi-agent execution. The Trident coordinator, confirmation gates, fallback engine, and session state manager were designed as domain-agnostic components. Swiggy's three MCP servers are the first domain integration. The same Trident orchestrator can plug into any multi-service platform (food delivery, fintech, logistics) where cross-domain behavioral prediction drives autonomous action.
+**Trident** is the orchestration layer that ties BGI predictions to multi-agent execution. The Trident coordinator, confirmation gates, fallback engine, and session state manager were designed as domain-agnostic components. Swiggy's three MCP servers are the first domain integration. The same Trident orchestrator can plug into any multi-service platform (food delivery, fintech, logistics) where cross-domain behavioral prediction drives autonomous action.
 
 The repo you're reading is where all four layers converge on a single use case: predicting and executing consumption behavior across Swiggy's Food, Instamart, and Dineout.
 
@@ -95,7 +95,7 @@ The repo you're reading is where all four layers converge on a single use case: 
               +----------------v-----------------+
               |         BGI Trident Core          |
               |                                   |
-              |  +-------- KUMO ENGINE ---------+ |
+              |  +--------Graph  ENGINE --------+ |
               |  |                               | |
               |  |  +-------+ +------+ +------+ | |
               |  |  | PyG   | | DGL  | |XGBst | | |
@@ -386,7 +386,7 @@ MIT
 
 **Abhinav Khare** -- Cofounder and CTO, [AhinsaAI](https://ahinsaai.com)
 
-20+ years in payments infrastructure, fraud/risk systems, and voice AI. Two exits (~$15M each). Production graph network experience in fraud detection. Built and scaled GCCs from 0 to 500 FTE. Scaled Asianet News Digital from 3M to 75M MAUs. ETH Zurich (M.S. Engineering), London Business School (MBA Finance). 12 active board seats across fintech, banking, and defence. Based in Bangalore.
+20+ years in payments infrastructure, fraud/risk systems, and voice AI. Two exits. Production graph network experience in fraud detection. Built and scaled GCCs from 0 to 500 FTE. Scaled Asianet News Digital from 3M to 75M MAUs. ETH Zurich (M.S. Engineering), London Business School (MBA Finance). 12 active board seats across fintech, banking, and defence. Based in Bangalore.
 
 - [LinkedIn](https://linkedin.com/in/abhinavkhare)
 - [GitHub](https://github.com/AbhinavKhareTech)
