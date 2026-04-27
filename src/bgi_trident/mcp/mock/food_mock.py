@@ -23,7 +23,10 @@ class MockFoodMCP(MCPServer):
     async def call_tool(self, tool_name: str, params: dict[str, Any]) -> MCPToolResult:
         if tool_name == "search_restaurants":
             query = params.get("query", "").lower()
-            results = [r for r in self._restaurants if query in r["name"].lower() or query in r.get("cuisine", "").lower()]
+            results = [
+                r for r in self._restaurants
+                if query in r["name"].lower() or query in r.get("cuisine", "").lower()
+            ]
             return MCPToolResult(tool_name=tool_name, success=True, data={"restaurants": results[:5]})
         elif tool_name == "get_restaurant_menu":
             rid = params.get("restaurant_id", "")
