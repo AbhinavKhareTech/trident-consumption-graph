@@ -58,7 +58,7 @@ DoorDash uses a single ID-GNN for notification personalization (heterogeneous us
 
 Trident differs in three ways: (1) three-model ensemble captures structural, temporal, and tabular signals that a single GNN misses, (2) cross-domain heterogeneous graph spans Food, Instamart, and Dineout with 8 edge types, and (3) predictions drive autonomous execution through multi-agent orchestration, not just notifications.
 
-## Provenance -- This Didn't Start Here
+## Provenance - This Didn't Start Here
 
 BGI Trident is not a weekend project built for this application. It is a Swiggy-specific integration of three platform layers developed at [AhinsaAI](https://ahinsaai.com) over the past 18+ months:
 
